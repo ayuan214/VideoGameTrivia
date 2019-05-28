@@ -6,8 +6,8 @@ const questions = require('./questions');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
-const ANSWER_COUNT = 4;
-const GAME_LENGTH = 5;
+const ANSWER_COUNT = 3;
+const GAME_LENGTH =5;
 
 function populateGameQuestions(translatedQuestions) {
   const gameQuestions = [];
@@ -73,8 +73,10 @@ function isAnswerSlotValid(intent) {
     && intent.slots
     && intent.slots.Answer
     && intent.slots.Answer.value;
+    console.log('answerSlotFilled is = ' + answerSlotFilled);
   const answerSlotIsInt = answerSlotFilled
-    && !Number.isNaN(parseInt(intent.slots.Answer.value, 10));
+    && !Number.isNaN(parseInt(intent.slots.Answer.value, 10)) && answerSlotFilled <= ANSWER_COUNT && answerSlotFilled != 0;
+    console.log('answerSlotIsInt is = ' + answerSlotIsInt);
   return answerSlotIsInt
     && parseInt(intent.slots.Answer.value, 10) < (ANSWER_COUNT + 1)
     && parseInt(intent.slots.Answer.value, 10) > 0;
@@ -85,7 +87,7 @@ function handleUserGuess(userGaveUp, handlerInput) {
   const { intent } = requestEnvelope.request;
 
   const answerSlotValid = isAnswerSlotValid(intent);
-
+  console.log('answerSlotValid = ' + answerSlotValid);
   let speechOutput = '';
   let speechOutputAnalysis = '';
 
@@ -98,23 +100,28 @@ function handleUserGuess(userGaveUp, handlerInput) {
   const requestAttributes = attributesManager.getRequestAttributes();
   const translatedQuestions = requestAttributes.t('QUESTIONS');
 
-
   if (answerSlotValid
     && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {
     currentScore += 1;
     speechOutputAnalysis = requestAttributes.t('ANSWER_CORRECT_MESSAGE');
+  } else if (answerSlotValid == false) {
+    console.log('INVALID ANSWER');
+    speechOutput = requestAttributes.t('INVALID_ANSWER', ANSWER_COUNT);
+    return responseBuilder
+      .speak(speechOutput)
+      .reprompt(speechOutput)
+      .getResponse();
+
   } else {
     if (!userGaveUp) {
       speechOutputAnalysis = requestAttributes.t('ANSWER_WRONG_MESSAGE');
     }
-
     speechOutputAnalysis += requestAttributes.t(
       'CORRECT_ANSWER_MESSAGE',
       correctAnswerIndex,
       correctAnswerText
     );
   }
-
   // Check if we can exit the game session after GAME_LENGTH questions (zero-indexed)
   if (sessionAttributes.currentQuestionIndex === GAME_LENGTH - 1) {
     speechOutput = userGaveUp ? '' : requestAttributes.t('ANSWER_IS_MESSAGE');
@@ -234,7 +241,7 @@ const languageString = {
   en: {
     translation: {
       QUESTIONS: questions.QUESTIONS_EN_US,
-      GAME_NAME: 'Reindeer Trivia',
+      GAME_NAME: 'Video Game Trivia',
       HELP_MESSAGE: 'I will ask you %s multiple choice questions. Respond with the number of the answer. For example, say one, two, three, or four. To start a new game at any time, say, start game. ',
       REPEAT_QUESTION_MESSAGE: 'To repeat the last question, say, repeat. ',
       ASK_MESSAGE_START: 'Would you like to start playing?',
@@ -253,7 +260,8 @@ const languageString = {
       ANSWER_IS_MESSAGE: 'That answer is ',
       TELL_QUESTION_MESSAGE: 'Question %s. %s ',
       GAME_OVER_MESSAGE: 'You got %s out of %s questions correct. Thank you for playing!',
-      SCORE_IS_MESSAGE: 'Your score is %s. '
+      SCORE_IS_MESSAGE: 'Your score is %s. ',
+      INVALID_ANSWER: 'Please say a number 1 through %s that corresponds to your answer.'
     },
   },
   'en-US': {
