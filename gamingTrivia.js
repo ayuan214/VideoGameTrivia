@@ -6,7 +6,7 @@ const questions = require('./questions');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
-const ANSWER_COUNT = 3;
+const ANSWER_COUNT = 4;
 const GAME_LENGTH =5;
 
 function populateGameQuestions(translatedQuestions) {
