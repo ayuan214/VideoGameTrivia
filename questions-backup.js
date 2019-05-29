@@ -7,503 +7,292 @@ module.exports = {
    */
 
   QUESTIONS_EN_US: [
+    // Pokemon
     {
-      'Reindeer have very thick coats, how many hairs per square inch do they have?': [
-        '13,000',
-        '1,200',
-        '5,000',
-        '700',
-        '1,000',
-        '120,000',
+      'In the game Pokemon, which of the following is not a selectable starter Pokemon?': [
+        'Larvitar',
+        'Charmander',
+        'Squirtle',
+        'Bulbasaur',
+        'Treecko',
+        'Torchic',
       ],
     },
     {
-      'The 1964 classic Rudolph The Red Nosed Reindeer was filmed in? ': [
-        'Japan',
-        'United States',
-        'Finland',
-        'Germany',
-        'Canada',
-        'Norway',
-        'France',
+      'In the original Pokemon game, which of the following is not a legendary Pokemon?': [
+        'Dragonite',
+        'Mewtwo',
+        'Articuno',
+        'Zapdos',
+        'Moltres',
       ],
     },
     {
-      'Santas reindeer are cared for by one of the Christmas elves, what is his name?': [
-        'Wunorse Openslae',
-        'Alabaster Snowball',
-        'Bushy Evergreen',
-        'Pepper Minstix',
+      'In the game Pokemon, which of the following gym leaders became an Elite Four Members?': [
+        'Koga',
+        'Brock',
+        'Misty',
+        'Blaine',
+        'Wiona',
       ],
     },
     {
-      'If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be': [
-        'Girls',
-        'Boys',
-        'Girls and boys',
-        'No way to tell',
+      'In the game Pokemon, which of the following is a gym badge you can earn in Pokemon Red or Blue?': [
+        'Cascade Badge',
+        'Mineral Badge',
+        'Rain Badge',
+        'Fen Badge',
+        'Jet Badge',
+        'Trio Badge',
       ],
     },
     {
-      'What do Reindeer eat?': [
-        'Lichen',
-        'Grasses',
-        'Leaves',
-        'Berries',
+      'In the game Pokemon, which of the following type of Pokemon are super effective against Dragon-type Pokemon?': [
+        'Fairy',
+        'Fire',
+        'Electric',
+        'Ghost',
+        'Dark',
+        'Steel',
+        'Flying'
+      ],
+    },
+    // Legend of Zelda
+    {
+      'In the game Legend of Zelda: Ocarina of Time, which triforce piece did Link hold?': [
+        'Courage',
+        'Power',
+        'Love',
+        'Wisdom',
+        'Friendship',
+        'Hope',
       ],
     },
     {
-      'What of the following is not true?': [
-        'Caribou live on all continents',
-        'Both reindeer and Caribou are the same species',
-        'Caribou are bigger than reindeer',
-        'Reindeer live in Scandinavia and Russia',
+      'Which of the following games is not an entry into The Legend of Zelda series?': [
+        'Light Seeker',
+        'Twilight Princess',
+        'Breath of the wild',
+        'Ocarina of Time',
+        'Link to the Past',
+        'Wind Waker',
       ],
     },
     {
-      'In what year did Rudolph make his television debut?': [
-        '1964',
-        '1979',
-        '2000',
-        '1956',
+      'In the Legend of Zelda Series, what is the name of the iconic sword Link uses?': [
+        'Master Sword',
+        'Golden Sword',
+        'Light Cutter',
+        'Wind Slasher',
+        'Flame Sword',
       ],
     },
     {
-      'Who was the voice of Rudolph in the 1964 classic?': [
-        'Billie Mae Richards',
-        'Burl Ives',
-        'Paul Soles',
-        'Lady Gaga',
+      'Who is the recurring antagonist in the Legend of Zelda series?': [
+        'Ganondorf',
+        'Liquid Snake',
+        'King K Rule',
+        'Kefka',
+        'Akuma',
       ],
     },
     {
-      'In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?': [
-        'Montgomery Ward',
-        'Sears',
-        'Macys',
-        'Kmart',
+      'In the game Legend of Zelda: Wind Waker, which vehicle is used to traverse the game?': [
+        'Boat',
+        'Wagon',
+        'Horse',
+        'Car',
+      ],
+    },
+
+    // Kingdom Hearts
+    {
+      'In the Kingdom Hearts game, what is the main weapon used by Sora?': [
+        'Keyblade',
+        'Soul Sword',
+        'Tempest Trident',
+        'Chakram of Change',
       ],
     },
     {
-      'Santa\'s reindeer named Donner was originally named what?': [
-        'Dunder',
-        'Donny',
-        'Dweedle',
-        'Dreamy',
+      'In the game Kingdom Hearts, who was the companions of Sora and also the royal magician to the king?': [
+        'Donald Duck',
+        'Bugs Bunny',
+        'Pluto',
+        'Goofy',
       ],
     },
     {
-      'Who invented the story of Rudolph?': [
-        'Robert May',
-        'Johnny Marks',
-        'Santa',
-        'J K  Rowling',
+      'In the Kingdom Hearts Video Game, what were the enemies that lost their hearts called?': [
+        'Heartless',
+        'Wandering Souls',
+        'Lost Hearts',
+        'Loveless',
       ],
     },
     {
-      'In what location will you not find reindeer?': [
-        'North Pole',
-        'Lapland',
-        'Korvatunturi mountain',
-        'Finland',
+      'What is the Kingdom Hearts Series, what was the name of Sora\'s childhood friend?': [
+        'Riku',
+        'Mizuki',
+        'Gon',
+        'Raizen',
+      ],
+    },
+
+    // Final Fantasy
+    {
+      'In the game Final Fantasy 7, which of the following is the main protagonist?': [
+        'Cloud Strife',
+        'Tidus',
+        'Vaan',
+        'Squall Leonhart',
+        'Noctis',
       ],
     },
     {
-      'What Makes Santa\'s Reindeer Fly?': [
-        'Magical Reindeer Dust',
-        'Fusion',
-        'Amanita muscaria',
-        'Elves',
+      'In the game Final Fantasy 7, which of the following is not a limit break for Cloud Strife?': [
+        'Dragon Drive',
+        'Cross Slash',
+        'Blade Beam',
+        'Meteor Rain',
+        'Finishing Touch',
+        'Omnislash'
       ],
     },
     {
-      'Including Rudolph, how many reindeer hooves are there?': [
-        '36',
-        '24',
-        '16',
-        '8',
+      'In the game Final Fantasy 6, which of the following is the main antagonist?': [
+        'Kefka',
+        'Garland',
+        'Sephiroth',
+        'Ultimecia',
       ],
     },
     {
-      'Santa only has one female reindeer, Which one is it?': [
-        'Vixen',
-        'Clarice',
-        'Cupid',
-        'Cupid',
+      'In the game Final Fantasy 13, who is the main protagonist?': [
+        'Noctis',
+        'Tidus',
+        'Vaan',
+        'Squall Leonhart',
+        'Cloud Strife',
+        'Cecil Harvey',
       ],
     },
     {
-      'In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?': [
-        'Sam',
-        'Frosty',
-        'Burl',
-        'Snowy',
+      'In the game Final Fantasy 7, which of the following is the main antagonist?': [
+        'Sephiroth',
+        'Garland',
+        'Kefka',
+        'Ultimecia',
+      ],
+    },
+
+    //Sonic
+    {
+      'In Sega\'s popular Sonic franchise, what special ability did his buddy Tails have?': [
+        'Flying',
+        'Climbing Walls',
+        'Teleportation',
+        'Invisibility',
+        'Break Dancing',
       ],
     },
     {
-      'What was Rudolph\'s father\'s name?': [
-        'Donner',
-        'Dasher',
-        'Blixen',
-        'Comet',
+      'In Sega\'s popular Sonic franchise, what golden object did Sonic need to collect?': [
+        'Rings',
+        'Mushrooms',
+        'Crystals',
+        'Bananas',
+        'Orbs of Light',
       ],
     },
     {
-      'In the 1964 movie, What was the name of the coach of the Reindeer Games?': [
-        'Comet',
-        'Blixen',
-        'Donner',
-        'Dasher',
+      'In Sega\'s popular Sonic franchise, what was Knuckles the Echidna in charge of safeguarding?': [
+        'The Master Emerald',
+        'The Chaos Emeralds',
+        'The Shadow Sapphire',
+        'The Cursed Rubies',
       ],
     },
     {
-      'In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?': [
-        'Fireball',
-        'Clarice',
-        'Jumper',
-        'Vixen',
-      ],
-    },
-    {
-      'In the 1964 movie, How did Donner, Rudolph\'s father, try to hide Rudolph\'s nose?': [
-        'Black mud',
-        'Bag',
-        'Pillow case',
-        'Sock',
-      ],
-    },
-    {
-      'In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?': [
-        'Dentist',
-        'Reindeer',
-        'Toy maker',
-        'Candlestick maker',
-      ],
-    },
-    {
-      'In the 1964 movie,what was the Bumble\'s one weakness?': [
-        'Could not swim',
-        'Always hungry',
-        'Candy canes',
-        'Cross eyed',
-      ],
-    },
-    {
-      'In the 1964 movie, what is Yukon Cornelius really in search of?': [
-        'Peppermint',
+      'In Sega\'s popular Sonic franchise, what color was Shadow, Sonic\'s doppelganger?': [
+        'Black',
+        'Blue',
+        'Orange',
+        'Red',
         'Gold',
-        'India',
-        'Polar Bears',
+      ],
+    },
+
+    // Persona 5
+    {
+      'In the game Persona 5, which of the following is not a code name of a Phantom Thief? ': [
+        'Magician',
+        'Joker',
+        'Skull',
+        'Mona',
+        'Panther',
+        'Fox',
+        'Oracle',
       ],
     },
     {
-      'In the 1964 movie, why is the train on the Island of Misfit Toys?': [
-        'Square wheels',
-        'No Engine',
-        'Paint does not match',
-        'It does not toot',
+      'In the game Persona 4, what was the name of the Persona the protagonist starts off with?': [
+        'Izanagi',
+        'Orpheus',
+        'Arsene',
+        'Loki',
+        'Jack Frost',
       ],
     },
     {
-      'In the 1964 movie, what is the name of the Jack in the Box?': [
-        'Charlie',
-        'Sam',
-        'Billy',
-        'Jack',
+      'In the game Persona 3, what was the arcana assigned to the protagonist early on in the game?': [
+        'The Fool',
+        'The Magician',
+        'The Chariot',
+        'The Lovers',
+        'The Emperor',
+      ],
+    },
+
+    // Mario
+    {
+      'What is the name of the pet dinosaur that Mario rides?': [
+        'Yoshi',
+        'Hobbes',
+        'Ness',
+        'Epona',
       ],
     },
     {
-      'In the 1964 movie, why did Santa Claus almost cancel Christmas?': [
-        'Storm',
-        'No snow',
-        'No toys',
-        'The Reindeer were sick',
+      'What item gave Mario the ability to throw fireballs?': [
+        'Fire Flower',
+        'Propeller Mushroom',
+        'Super Star',
+        'Cape Feather',
+        'Ice Flower',
+        'Wing Cap',
       ],
     },
     {
-      'In the 1964 movie, what animal noise did the elf make to distract the Bumble?': [
-        'Oink',
-        'Growl',
-        'Bark',
-        'Meow',
+      'In the 1996 game Super Mario RPG, which are the following was a playable character?': [
+        'Genos',
+        'Wario',
+        'Rosalina',
+        'Toad',
+        'Luigi',
       ],
     },
+
+    //Uncharted
     {
-      'In the 1964 movie, what is the name of the prospector?': [
-        'Yukon Cornelius',
-        'Slider Sam',
-        'Bumble',
-        'Jack',
-      ],
-    },
-    {
-      'How far do reindeer travel when they migrate?': [
-        '3000 miles',
-        '700 miles',
-        '500 miles',
-        '0 miles',
-      ],
-    },
-    {
-      'How fast can a reindeer run?': [
-        '48 miles per hour',
-        '17 miles per hour',
-        '19 miles per hour',
-        '14 miles per hour',
-        '52 miles per hour',
-        '41 miles per hour',
+      'Who was the main protagonist in the Uncharted Series?': [
+        'Nathan Drake',
+        'Crash Bandicoot',
+        'Joel',
+        'Ellie',
+        'Jim Raynor',
+        'Lena Oxton',
       ],
     },
   ]
-  /* ,
-
-  QUESTIONS_EN_GB: [
-    {
-      'Reindeer have very thick coats, how many hairs per square inch do they have?': [
-        '13,000',
-        '1,200',
-        '5,000',
-        '700',
-        '1,000',
-        '120,000',
-      ],
-    },
-    {
-      'The 1964 classic Rudolph The Red Nosed Reindeer was filmed in? ': [
-        'Japan',
-        'United States',
-        'Finland',
-        'Germany',
-        'Canada',
-        'Norway',
-        'France',
-      ],
-    },
-    {
-      'Santas reindeer are cared for by one of the Christmas elves, what is his name?': [
-        'Wunorse Openslae',
-        'Alabaster Snowball',
-        'Bushy Evergreen',
-        'Pepper Minstix',
-      ],
-    },
-    {
-      'If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be? ': [
-        'Girls',
-        'Boys',
-        'Girls and boys',
-        'No way to tell',
-      ],
-    },
-    {
-      'What do Reindeer eat?': [
-        'Lichen',
-        'Grasses',
-        'Leaves',
-        'Berries',
-      ],
-    },
-    {
-      'What of the following is not true?': [
-        'Caribou live on all continents',
-        'Both reindeer and Caribou are the same species',
-        'Caribou are bigger than reindeer',
-        'Reindeer live in Scandinavia and Russia',
-      ],
-    },
-    {
-      'In what year did Rudolph make his television debut?': [
-        '1964',
-        '1979',
-        '2000',
-        '1956',
-      ],
-    },
-    {
-      'Who was the voice of Rudolph in the 1964 classic?': [
-        'Billie Mae Richards',
-        'Burl Ives',
-        'Paul Soles',
-        'Lady Gaga',
-      ],
-    },
-    {
-      'In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?': [
-        'Montgomery Ward',
-        'Sears',
-        'Macys',
-        'Kmart',
-      ],
-    },
-    {
-      'Santa\'s reindeer named Donner was originally named what?': [
-        'Dunder',
-        'Donny',
-        'Dweedle',
-        'Dreamy',
-      ],
-    },
-    {
-      'Who invented the story of Rudolph?': [
-        'Robert May',
-        'Johnny Marks',
-        'Santa',
-        'J K  Rowling',
-      ],
-    },
-    {
-      'In what location will you not find reindeer?': [
-        'North Pole',
-        'Lapland',
-        'Korvatunturi mountain',
-        'Finland',
-      ],
-    },
-    {
-      'What Makes Santa\'s Reindeer Fly?': [
-        'Magical Reindeer Dust',
-        'Fusion',
-        'Amanita muscaria',
-        'Elves',
-      ],
-    },
-    {
-      'Including Rudolph, how many reindeer hooves are there?': [
-        '36',
-        '24',
-        '16',
-        '8',
-      ],
-    },
-    {
-      'Santa only has one female reindeer, Which one is it?': [
-        'Vixen',
-        'Clarice',
-        'Cupid',
-        'Cupid',
-      ],
-    },
-    {
-      'In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?': [
-        'Sam',
-        'Frosty',
-        'Burl',
-        'Snowy',
-      ],
-    },
-    {
-      'What was Rudolph\'s father\'s name?': [
-        'Donner',
-        'Dasher',
-        'Blixen',
-        'Comet',
-      ],
-    },
-    {
-      'In the 1964 movie, What was the name of the coach of the Reindeer Games?': [
-        'Comet',
-        'Blixen',
-        'Donner',
-        'Dasher',
-      ],
-    },
-    {
-      'In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?': [
-        'Fireball',
-        'Clarice',
-        'Jumper',
-        'Vixen',
-      ],
-    },
-    {
-      'In the 1964 movie, How did Donner, Rudolph\'s father, try to hide Rudolph\'s nose?': [
-        'Black mud',
-        'Bag',
-        'Pillow case',
-        'Sock',
-      ],
-    },
-    {
-      'In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?': [
-        'Dentist',
-        'Reindeer',
-        'Toy maker',
-        'Candlestick maker',
-      ],
-    },
-    {
-      'In the 1964 movie,what was the Bumble\'s one weakness?': [
-        'Could not swim',
-        'Always hungry',
-        'Candy canes',
-        'Cross eyed',
-      ],
-    },
-    {
-      'In the 1964 movie, what is Yukon Cornelius really in search of?': [
-        'Peppermint',
-        'Gold',
-        'India',
-        'Polar Bears',
-      ],
-    },
-    {
-      'In the 1964 movie, why is the train on the Island of Misfit Toys?': [
-        'Square wheels',
-        'No Engine',
-        'Paint does not match',
-        'It does not toot',
-      ],
-    },
-    {
-      'In the 1964 movie, what is the name of the Jack in the Box?': [
-        'Charlie',
-        'Sam',
-        'Billy',
-        'Jack',
-      ],
-    },
-    {
-      'In the 1964 movie, why did Santa Claus almost cancel Christmas?': [
-        'Storm',
-        'No snow',
-        'No toys',
-        'The Reindeer were sick',
-      ],
-    },
-    {
-      'In the 1964 movie, what animal noise did the elf make to distract the Bumble?': [
-        'Oink',
-        'Growl',
-        'Bark',
-        'Meow',
-      ],
-    },
-    {
-      'In the 1964 movie, what is the name of the prospector?': [
-        'Yukon Cornelius',
-        'Slider Sam',
-        'Bumble',
-        'Jack',
-      ],
-    },
-    {
-      'How far do reindeer travel when they migrate?': [
-        '3000 miles',
-        '700 miles',
-        '500 miles',
-        '0 miles',
-      ],
-    },
-    {
-      'How fast can a reindeer run?': [
-        '48 miles per hour',
-        '17 miles per hour',
-        '19 miles per hour',
-        '14 miles per hour',
-        '52 miles per hour',
-        '41 miles per hour',
-      ],
-    },
-  ], */
 };
