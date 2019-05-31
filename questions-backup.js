@@ -7,7 +7,7 @@ module.exports = {
    */
 
   QUESTIONS_EN_US: [
-    // Pokemon
+    //Pokemon
     {
       'In the game Pokemon, which of the following is not a selectable starter Pokemon?': [
         'Larvitar',
@@ -177,12 +177,23 @@ module.exports = {
         'Cecil Harvey',
       ],
     },
+
     {
       'In the game Final Fantasy 7, which of the following is the main antagonist?': [
         'Sephiroth',
         'Garland',
         'Kefka',
         'Ultimecia',
+      ],
+    },
+
+    {
+      'In the Final Fantasy Franchise, what was the name of the large yellow birds that you ride?': [
+        'Chocobo',
+        'Moogle',
+        'Bahamet',
+        'Cactuar',
+        'Flan',
       ],
     },
 
@@ -223,7 +234,7 @@ module.exports = {
       ],
     },
 
-    // Persona 5
+    // Persona
     {
       'In the game Persona 5, which of the following is not a code name of a Phantom Thief? ': [
         'Magician',
@@ -236,7 +247,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Persona 4, what was the name of the Persona the protagonist starts off with?': [
+      'In the game Persona 4, what was the name of the Persona the protagonist starts with?': [
         'Izanagi',
         'Orpheus',
         'Arsene',
@@ -256,7 +267,7 @@ module.exports = {
 
     // Mario
     {
-      'What is the name of the pet dinosaur that Mario rides?': [
+      'What is the name of the green pet dinosaur that Mario rides?': [
         'Yoshi',
         'Hobbes',
         'Ness',
@@ -282,16 +293,197 @@ module.exports = {
         'Luigi',
       ],
     },
+    {
+      'What Nintendo game did Mario make his first debut?': [
+        'Donkey Kong',
+        'Mario Bros',
+        'Super Mario Bros',
+        'Paper Mario',
+        'Super Mario World',
+        'Super Mario Sunshine',
+      ],
+    },
+    {
+      'In Nintendo\'s Super Mario franchise what was the name of Mario\'s twin brother?': [
+        'Luigi',
+        'Bruno',
+        'Matteo',
+        'Waluigi',
+        'Donatello',
+      ],
+    },
 
     //Uncharted
     {
-      'Who was the main protagonist in the Uncharted Series?': [
+      'Who was the main protagonist of the Uncharted Series?': [
         'Nathan Drake',
         'Crash Bandicoot',
         'Joel',
         'Ellie',
         'Jim Raynor',
         'Lena Oxton',
+      ],
+    },
+
+    {
+      'In the game Uncharted 2: Among Thieves, what lost city was the Cintamani Stone located?': [
+        'Shangri-La',
+        'El Dorado',
+        'Atlantis',
+        'Valhalla',
+      ],
+    },
+
+    {
+      'In the Uncharted series what was the name of Nathan Drake\'s recurring companion?': [
+        'Victor Sullivan',
+        'Lara Croft',
+        'Samus Aran',
+        'Geralt',
+        'Dante',
+      ],
+    },
+
+    //Street Fighter
+    {
+      'In the Street Fighter series, what country did Chun-li represent?': [
+        'China',
+        'Bolivia',
+        'England',
+        'South Korea',
+        'United States',
+      ],
+    },
+
+    {
+      'In the Street Fighter series, which of the following is a special move for Guile?': [
+        'Sonic Boom',
+        'Yoga Flame',
+        'Spinning Bird Kick',
+        'Cannon Strike',
+        'Shoryuken',
+      ],
+    },
+    {
+      'In the Street Fighter series, which of the following is a special move for Ryu?': [
+        'Hadouken',
+        'Spinning Piledriver',
+        'Tiger Shot',
+        'Psycho Crusher',
+        'Kikoken',
+      ],
+    },
+    //Megaman
+    {
+      'In the Megaman series, what is the name of the professor that built Megaman?': [
+        'Doctor Light',
+        'Doctor Wiley',
+        'Professor Layton',
+        'Professor Oak',
+        'Doctor Mundo',
+      ],
+    },
+    {
+      'In the Megaman X series, what is the name of the maverick hunter who wields the Z-saber?': [
+        'Zero',
+        'Protoman',
+        'Swordman',
+        'Bass',
+        'Gutsman',
+      ],
+    },
+    {
+      'The popular Megaman franchise is also known is Japan as what?': [
+        'Rockman',
+        'Gutsman',
+        'Protoman',
+        'Flashman',
+        'Blueman',
+      ],
+    },
+
+    //Miscellaneous
+    {
+      'Dante is the protagonist in what popular Capcom franchise?': [
+        'Devil May Cry',
+        'Resident Evil',
+        'Dead Rising',
+        'Darkstalkers',
+        'Final Fight',
+      ],
+    },
+    {
+      'Ness and Lucas are characters from what Nintendo franchise?': [
+        'Mother',
+        'F-Zero',
+        'Kid Icarus',
+        'Pikmin',
+        'Splatoon',
+      ],
+    },
+    {
+      'Nintendo\'s F-Zero franchise is typically classified as what type of game?': [
+        'Racing',
+        'RPG',
+        'Action',
+        'Real Time Strategy',
+        'First Person Shooter',
+        'Sports',
+      ],
+    },
+    {
+      'Which game was developed by Blizzard Entertainment?': [
+        'Overwatch',
+        'Half Life 2',
+        'Elder Scrolls',
+        'Mortal Kombat',
+        'League of Legends',
+        'Medal of Honor',
+      ],
+    },
+    {
+      'Epic Games, the creators of Fornite, is also credited with what video game franchise?': [
+        'Gears of War',
+        'God of War',
+        'Resident Evil',
+        'Metal Gear Solid',
+        'Borderlands',
+      ],
+    },
+    {
+      'Which game was not created by popular mobile app developer Supercell?': [
+        'Fruit Ninja',
+        'Clash Royale',
+        'Brawl Stars',
+        'Clash of Clans',
+        'Boom Beach',
+      ],
+    },
+    {
+      'Which character is from the Mortal Kombat franchise?': [
+        'Sub Zero',
+        'Son Goku',
+        'Vega',
+        'Kazuya Mishima',
+        'Iori Yagami',
+      ],
+    },
+    {
+      'The 1972 game Pong was developed by which company?': [
+        'Atari',
+        'Nintendo',
+        'Sega',
+        'SNK',
+        'Sony',
+      ],
+    },
+    {
+      'Which of these franchises is not owned by popular video game developer Naughty Dog?': [
+        'God of War',
+        'Uncharted',
+        'Crash Bandicoot',
+        'Jak and Daxter',
+        'The Last of Us',
       ],
     },
   ]
