@@ -7,6 +7,68 @@ module.exports = {
    */
 
   QUESTIONS_EN_US: [
+
+    // Easy QUESTIONS
+    {
+      'What franchise is Pikachu from?': [
+        'Pokemon',
+        'Mario',
+        'Call of Duty',
+        'Kingdom Hearts',
+        'Final Fantasy',
+        'Yokai Watch',
+      ],
+    },
+    {
+      'What does Mario eat to grow in size?': [
+        'Mushroom',
+        'Broccoli',
+        'Apples',
+        'Bread',
+        'Cereal',
+        'Steak',
+      ],
+    },
+    {
+      'The Madden video game franchise is based off what sport?': [
+        'Football',
+        'Basketball',
+        'Baseball',
+        'Tennis',
+        'Hockey',
+        'Golf',
+      ],
+    },
+    {
+      'What company created the Playstation?': [
+        'Sony',
+        'Microsoft',
+        'Sega',
+        'Nintendo',
+        'Atari',
+        'Apple',
+      ],
+    },
+    {
+      'What company created the Playstation?': [
+        'Sony',
+        'Microsoft',
+        'Sega',
+        'Nintendo',
+        'Atari',
+        'Apple',
+      ],
+    },
+    {
+      'Who does Mario usually have to save from Bowser?': [
+        'Princess Peach',
+        'Zelda',
+        'Ryu',
+        'Pit',
+        'Kirby',
+        'Lucene',
+      ],
+    },
     //Pokemon
     {
       'In the game Pokemon, which of the following is not a selectable starter Pokemon?': [
@@ -59,20 +121,20 @@ module.exports = {
     },
     // Legend of Zelda
     {
-      'In the game Legend of Zelda: Ocarina of Time, which triforce piece did Link hold?': [
+      'In Legend of Zelda: Ocarina of Time, which triforce piece did Link hold?': [
         'Courage',
         'Power',
         'Love',
         'Wisdom',
         'Friendship',
-        'Hope',
+        'Love',
       ],
     },
     {
       'Which of the following games is not an entry into The Legend of Zelda series?': [
         'Light Seeker',
         'Twilight Princess',
-        'Breath of the wild',
+        'Breath of the Wild',
         'Ocarina of Time',
         'Link to the Past',
         'Wind Waker',
@@ -123,7 +185,7 @@ module.exports = {
       ],
     },
     {
-      'In the Kingdom Hearts Video Game, what were the enemies that lost their hearts called?': [
+      'In the Kingdom Hearts Video Game, what were the enemies whom lost their hearts called?': [
         'Heartless',
         'Wandering Souls',
         'Lost Hearts',
@@ -146,7 +208,7 @@ module.exports = {
         'Tidus',
         'Vaan',
         'Squall Leonhart',
-        'Noctis',
+        'Noctis Lucis Caelum',
       ],
     },
     {
@@ -169,7 +231,7 @@ module.exports = {
     },
     {
       'In the game Final Fantasy 13, who is the main protagonist?': [
-        'Noctis',
+        'Noctis Lucis Caelum',
         'Tidus',
         'Vaan',
         'Squall Leonhart',
@@ -188,7 +250,7 @@ module.exports = {
     },
 
     {
-      'In the Final Fantasy Franchise, what was the name of the large yellow birds that you ride?': [
+      'In the Final Fantasy Franchise, what was the name of the large yellow birds you ride?': [
         'Chocobo',
         'Moogle',
         'Bahamet',
@@ -343,6 +405,15 @@ module.exports = {
         'Dante',
       ],
     },
+    {
+      'Which of these franchises is not owned by popular video game developer Naughty Dog?': [
+        'God of War',
+        'Uncharted',
+        'Crash Bandicoot',
+        'Jak and Daxter',
+        'The Last of Us',
+      ],
+    },
 
     //Street Fighter
     {
@@ -375,7 +446,7 @@ module.exports = {
     },
     //Megaman
     {
-      'In the Megaman series, what is the name of the professor that built Megaman?': [
+      'In the Megaman series, what is the name of the professor who built Megaman?': [
         'Doctor Light',
         'Doctor Wiley',
         'Professor Layton',
@@ -402,6 +473,133 @@ module.exports = {
       ],
     },
 
+    //Halo
+    {
+      'What company is responsible for creating the Halo Franchise?': [
+        'Bungie Games',
+        'Epic Games',
+        'Respawn Entertainment',
+        'Rockstar Games',
+        'Ubisoft',
+      ],
+    },
+    {
+      'Bungie, the company responsible for creating the Halo franchise, also created what game?': [
+        'Destiny',
+        'Titanfall',
+        'Gears of War',
+        'Apex Legends',
+        'Overwatch',
+      ],
+    },
+    {
+      'In Halo 2, Master Chief and what other character were playable roles?': [
+        'Arbiter',
+        'Zealot',
+        'Sangheili',
+        'Honor Guardsman',
+        'High Councilor',
+      ],
+    },
+    {
+      'What is the name Master Chief\'s  A.I. companion in the Halo series?': [
+        'Cortana',
+        'Siri',
+        'Scarlett',
+        'Aria',
+        'Tracer',
+      ],
+    },
+    //Metroid
+    {
+      'In the Metroid franchise what is the name of the main protoganist?': [
+        'Samus Aran',
+        'Zelda',
+        'Bayonetta',
+        'Rydia',
+        'Jill Valentine',
+      ],
+    },
+    {
+      'In the Metroid franchise what is the name of recurring dragon boss one must fight?': [
+        'Ridley',
+        'Bahamut',
+        'Rayquaza',
+        'Shenron',
+        'Rhaegal',
+      ],
+    },
+    {
+      'In the Metroid franchise what is the name of the iconic orange and red suit Samus Aran wore in Smash Brothers?': [
+        'Varia Suit',
+        'Zero Suit',
+        'Light Suit',
+        'Fusion Suit',
+        'Phazon Suit',
+      ],
+    },
+    //Blizzard
+    {
+      'Which game was developed by Blizzard Entertainment?': [
+        'Overwatch',
+        'Half Life 2',
+        'Elder Scrolls',
+        'Mortal Kombat',
+        'League of Legends',
+        'Medal of Honor',
+      ],
+    },
+    {
+      'Which of the following is not an Overwatch character?': [
+        'Mordekaiser',
+        'Tracer',
+        'Winston',
+        'Mercy',
+        'Genji',
+        'Zarya',
+      ],
+    },
+    {
+      'Which of the following is not a class in Diablo 3?': [
+        'Priest',
+        'Demon Hunter',
+        'Monk',
+        'Wizard',
+        'Witch Doctor',
+        'Crusader',
+      ],
+    },
+    {
+      'Which of the following is a charcter from the Starcraft franchise?': [
+        'Kerrigan',
+        'Whitemane',
+        'Hanzo',
+        'Valeera',
+        'Auriel',
+        'Li-Ming',
+      ],
+    },
+    {
+      'Which of the following is a charcter from the Warcraft franchise?': [
+        'Thrall',
+        'Tychus',
+        'Tyrael',
+        'Zeratul',
+        'Auriel',
+        'Doomfist',
+      ],
+    },
+    {
+      'The Overwatch hero Tracer is of what nationality?': [
+        'British',
+        'American',
+        'Egyptian',
+        'Spanish',
+        'Russian',
+        'Japanese',
+      ],
+    },
+
     //Miscellaneous
     {
       'Dante is the protagonist in what popular Capcom franchise?': [
@@ -410,6 +608,15 @@ module.exports = {
         'Dead Rising',
         'Darkstalkers',
         'Final Fight',
+      ],
+    },
+    {
+      'Who is Dante\'s older brother in Devil May Cry?': [
+        'Vergil',
+        'Nero',
+        'Amulius',
+        'Remus',
+        'Sirius',
       ],
     },
     {
@@ -432,17 +639,7 @@ module.exports = {
       ],
     },
     {
-      'Which game was developed by Blizzard Entertainment?': [
-        'Overwatch',
-        'Half Life 2',
-        'Elder Scrolls',
-        'Mortal Kombat',
-        'League of Legends',
-        'Medal of Honor',
-      ],
-    },
-    {
-      'Epic Games, the creators of Fornite, is also credited with what video game franchise?': [
+      'Epic Games, the creators of Fortnite, is also credited with what video game franchise?': [
         'Gears of War',
         'God of War',
         'Resident Evil',
@@ -478,13 +675,78 @@ module.exports = {
       ],
     },
     {
-      'Which of these franchises is not owned by popular video game developer Naughty Dog?': [
-        'God of War',
-        'Uncharted',
-        'Crash Bandicoot',
-        'Jak and Daxter',
-        'The Last of Us',
+      'Which of these developers was responsible for making hits such Bloodborne and Dark Souls?': [
+        'FromSoftware',
+        'Platinum Games',
+        'Kojima Production',
+        'Comcept',
+        'Level 5',
+      ],
+    },
+    {
+      'Which game developed by Platinum Games featured a witch who uses her hair to fight her foes?': [
+        'Bayonetta',
+        'Vanquish',
+        'Darkstalkers',
+        'Left 4 Dead',
+        'Biohazard',
+      ],
+    },
+    {
+      'What is the name of Solid Snake\'s brother?': [
+        'Liquid Snake',
+        'Naked Snake',
+        'Old Snake',
+        'Snake Eater',
+        'Twin Snake',
+      ],
+    },
+    {
+      'What is the highest grossing video game franchise of all time?': [
+        'Pokemon',
+        'Mario',
+        'Call of Duty',
+        'Warcraft',
+        'Final Fantasy',
+      ],
+    },
+    // Best Selling
+    {
+      'What is the best selling video game console of all time?': [
+        'Playstation 2',
+        'Nintendo Wii',
+        'Playstaion 3',
+        'Xbox 360',
+        'Nintendo DS',
+      ],
+    },
+    {
+      'What is the best selling video game of all time?': [
+        'Minecraft',
+        'Tetris',
+        'Grand Theft Auto 5',
+        'Pokemon Red',
+        'Mario Kart',
+      ],
+    },
+    {
+      'What is the best selling video game on the Playstation 2?': [
+        'Grand Theft Auto: San Andreas',
+        'Grand Turismo 3',
+        'Final Fantasy 10',
+        'Metal Gear Solid 2',
+        'Tekken 5',
+      ],
+    },
+    {
+      'What is the best selling video game on the Super Nintendo?': [
+        'Super Mario World',
+        'Donkey Kong Country',
+        'Street Fighter 2',
+        'Super Mario Kart',
+        'Legend of Zelda: A Link to the Past',
       ],
     },
   ]
-};
+}
+//75
