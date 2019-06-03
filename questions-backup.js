@@ -40,9 +40,9 @@ module.exports = {
       ],
     },
     {
-      'What company created the Playstation?': [
-        'Sony',
+      'What company created the Xbox?': [
         'Microsoft',
+        'Sony',
         'Sega',
         'Nintendo',
         'Atari',
