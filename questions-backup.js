@@ -30,7 +30,7 @@ module.exports = {
       ],
     },
     {
-      'The Madden video game franchise is based off what sport?': [
+      'The Madden video game franchise is based on what sport?': [
         'Football',
         'Basketball',
         'Baseball',
@@ -50,7 +50,7 @@ module.exports = {
       ],
     },
     {
-      'What company created the Playstation?': [
+      'What company created the PlayStation?': [
         'Sony',
         'Microsoft',
         'Sega',
@@ -116,7 +116,17 @@ module.exports = {
         'Ghost',
         'Dark',
         'Steel',
-        'Flying'
+        'Flying',
+      ],
+    },
+    {
+      'Which of the following is not a type of Pokemon?': [
+        'Light',
+        'Fairy',
+        'Steel',
+        'Dark',
+        'Ghost',
+        'Normal',
       ],
     },
     // Legend of Zelda
@@ -185,7 +195,7 @@ module.exports = {
       ],
     },
     {
-      'In the Kingdom Hearts Video Game, what were the enemies whom lost their hearts called?': [
+      'In the Kingdom Hearts Video Game, what were the enemies who lost their hearts called?': [
         'Heartless',
         'Wandering Souls',
         'Lost Hearts',
@@ -512,7 +522,7 @@ module.exports = {
     },
     //Metroid
     {
-      'In the Metroid franchise what is the name of the main protoganist?': [
+      'In the Metroid franchise what is the name of the main protaganist?': [
         'Samus Aran',
         'Zelda',
         'Bayonetta',
@@ -570,7 +580,7 @@ module.exports = {
       ],
     },
     {
-      'Which of the following is a charcter from the Starcraft franchise?': [
+      'Which of the following is a character from the Starcraft franchise?': [
         'Kerrigan',
         'Whitemane',
         'Hanzo',
@@ -580,7 +590,7 @@ module.exports = {
       ],
     },
     {
-      'Which of the following is a charcter from the Warcraft franchise?': [
+      'Which of the following is a character from the Warcraft franchise?': [
         'Thrall',
         'Tychus',
         'Tyrael',
@@ -597,6 +607,65 @@ module.exports = {
         'Spanish',
         'Russian',
         'Japanese',
+      ],
+    },
+    {
+      'The Overwatch hero Hanzo is of what nationality?': [
+        'Japanese',
+        'American',
+        'Egyptian',
+        'Spanish',
+        'Russian',
+        'British',
+      ],
+    },
+
+    //Castlevania
+    {
+      'In Castlevania: Symphony of the Night, who do you control?': [
+        'Alucard',
+        'Simon Belmont',
+        'Soma Cruz',
+        'Dracula',
+        'Sypha Belnades',
+      ],
+    },
+    {
+      'Who is the vampire hunter you play as in the original Castlevania?': [
+        'Simon Belmont',
+        'Soma Cruz',
+        'Richter Belmont',
+        'Julius Belmont',
+        'Sypha Belnades',
+      ],
+    },
+    {
+      'In the Castlevania series, what was Simon Belmont\'s signature weapon?': [
+        'Whip',
+        'Axe',
+        'Sword',
+        'Shield',
+        'Pike',
+      ],
+    },
+
+    //Grand Theft Auto
+    {
+      'Which of the following is a playable character in Grand Theft Auto 5?': [
+        'Michael de Santa',
+        'Niko Bellic',
+        'Gordan Freeman',
+        'Duke Nukem',
+        'Pyke',
+      ],
+    },
+    {
+      'Grand Theft Auto 4 takes place in what ficional city modeled after New York City?': [
+        'Liberty City',
+        'Grestin',
+        'Los Santos',
+        'Pallet Town',
+        'Raccoon City',
       ],
     },
 
@@ -710,10 +779,82 @@ module.exports = {
         'Final Fantasy',
       ],
     },
+    {
+      'Who is the protaganist of the Tomb Raider franchise?': [
+        'Lara Croft',
+        'Nathan Drake',
+        'Kratos',
+        'Sam Fisher',
+        'Marcus Fenix',
+      ],
+    },
+    {
+      'What franchise is Desmond Miles from?': [
+        'Assassin\'s Creed',
+        'Uncharted',
+        'Tony Hawk Pro Skater',
+        'Splinter Cell',
+        'Metal Gear Solid',
+      ],
+    },
+    {
+      'The Dynasty Warriors franchise is loosely based on which historical event?': [
+        'The Records of the Three Kingdoms',
+        'The Fall of Troy',
+        'The Battle of Kawanakajima',
+        'The Battle of Battle of Nicopolis',
+        'The Franco-Prussian War',
+      ],
+    },
+    {
+      'Who is the creator of popular video game characters Mario and Link?': [
+        'Shigeru Miyamoto',
+        'Kenji Inafune',
+        'Hideo Kojima',
+        'Tetsuya Nomura',
+        'Hideki Kamiya',
+      ],
+    },
+    {
+      'Swedish Studio Mojang is best known for what hit game?': [
+        'Minecraft',
+        'Just Dance',
+        'Rock Band',
+        'Fortnite',
+        'NBA 2K',
+      ],
+    },
+    {
+      'Which of the following is not a location in Fortnite?': [
+        'Nuketown',
+        'Tilted Towers',
+        'Pleasant Park',
+        'Salty Springs',
+        'Retail Row',
+      ],
+    },
+    {
+      'Which of the following is an item in Fortnite?': [
+        'Chug Jug',
+        'Pulse Rifle',
+        'Biotic Launcher',
+        'Widow\'s Kiss',
+        'Frag Launcher',
+      ],
+    },
+    {
+      'In Banjo-Kazooie, what animal is Banjo?': [
+        'A bear',
+        'A dog',
+        'A bird',
+        'A tiger',
+        'A lion',
+      ],
+    },
     // Best Selling
     {
       'What is the best selling video game console of all time?': [
-        'Playstation 2',
+        'PlayStation 2',
         'Nintendo Wii',
         'Playstaion 3',
         'Xbox 360',
@@ -730,7 +871,7 @@ module.exports = {
       ],
     },
     {
-      'What is the best selling video game on the Playstation 2?': [
+      'What is the best selling video game on the PlayStation 2?': [
         'Grand Theft Auto: San Andreas',
         'Grand Turismo 3',
         'Final Fantasy 10',
@@ -749,4 +890,4 @@ module.exports = {
     },
   ]
 }
-//75
+//90
