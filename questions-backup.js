@@ -20,6 +20,15 @@ module.exports = {
       ],
     },
     {
+      'What color is Pac-Man?': [
+        'Yellow',
+        'Pink',
+        'Blue',
+        'Green',
+        'Brown',
+      ],
+    },
+    {
       'What does Mario eat to grow in size?': [
         'Mushroom',
         'Broccoli',
@@ -71,7 +80,7 @@ module.exports = {
     },
     //Pokemon
     {
-      'In the game Pokemon, which of the following is not a selectable starter Pokemon?': [
+      'In Pokemon, which of the following is not a selectable starter Pokemon?': [
         'Larvitar',
         'Charmander',
         'Squirtle',
@@ -81,7 +90,7 @@ module.exports = {
       ],
     },
     {
-      'In the original Pokemon game, which of the following is not a legendary Pokemon?': [
+      'In the original Pokemon Red, which of the following is not a legendary Pokemon?': [
         'Dragonite',
         'Mewtwo',
         'Articuno',
@@ -90,7 +99,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Pokemon, which of the following gym leaders became an Elite Four Members?': [
+      'In Pokemon, which of the following gym leaders became an Elite Four Members?': [
         'Koga',
         'Brock',
         'Misty',
@@ -195,7 +204,7 @@ module.exports = {
       ],
     },
     {
-      'In the Kingdom Hearts Video Game, what were the enemies who lost their hearts called?': [
+      'In the Kingdom Hearts, what were the enemies who lost their hearts called?': [
         'Heartless',
         'Wandering Souls',
         'Lost Hearts',
@@ -213,7 +222,7 @@ module.exports = {
 
     // Final Fantasy
     {
-      'In the game Final Fantasy 7, which of the following is the main protagonist?': [
+      'In Final Fantasy 7, which of the following is the main protagonist?': [
         'Cloud Strife',
         'Tidus',
         'Vaan',
@@ -222,7 +231,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Final Fantasy 7, which of the following is not a limit break for Cloud Strife?': [
+      'In Final Fantasy 7, which of the following is not a limit break for Cloud Strife?': [
         'Dragon Drive',
         'Cross Slash',
         'Blade Beam',
@@ -232,7 +241,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Final Fantasy 6, which of the following is the main antagonist?': [
+      'In Final Fantasy 6, which of the following is the main antagonist?': [
         'Kefka',
         'Garland',
         'Sephiroth',
@@ -240,7 +249,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Final Fantasy 13, who is the main protagonist?': [
+      'In Final Fantasy 13, who is the main protagonist?': [
         'Noctis Lucis Caelum',
         'Tidus',
         'Vaan',
@@ -251,7 +260,7 @@ module.exports = {
     },
 
     {
-      'In the game Final Fantasy 7, which of the following is the main antagonist?': [
+      'In Final Fantasy 7, which of the following is the main antagonist?': [
         'Sephiroth',
         'Garland',
         'Kefka',
@@ -268,10 +277,19 @@ module.exports = {
         'Flan',
       ],
     },
-
+    // Starfox
+    {
+      'Which Starfox game had the popular quote Do a Barrel Roll!': [
+        'Star Fox 64',
+        'Star Fox Zero',
+        'Star Fox Adventures',
+        'Star Fox 2',
+        'Star Fox Guard',
+      ],
+    },
     //Sonic
     {
-      'In Sega\'s popular Sonic franchise, what special ability did his buddy Tails have?': [
+      'In Sega\'s popular Sonic franchise, what special ability did Tails have?': [
         'Flying',
         'Climbing Walls',
         'Teleportation',
@@ -308,7 +326,7 @@ module.exports = {
 
     // Persona
     {
-      'In the game Persona 5, which of the following is not a code name of a Phantom Thief? ': [
+      'In Persona 5, which of the following is not a code name of a Phantom Thief? ': [
         'Magician',
         'Joker',
         'Skull',
@@ -319,7 +337,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Persona 4, what was the name of the Persona the protagonist starts with?': [
+      'In Persona 4, what was the name of the Persona the protagonist starts with?': [
         'Izanagi',
         'Orpheus',
         'Arsene',
@@ -328,7 +346,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Persona 3, what was the arcana assigned to the protagonist early on in the game?': [
+      'In Persona 3, what was the arcana assigned to the protagonist early on in the game?': [
         'The Fool',
         'The Magician',
         'The Chariot',
@@ -347,7 +365,7 @@ module.exports = {
       ],
     },
     {
-      'What item gave Mario the ability to throw fireballs?': [
+      'What item gives Mario the ability to throw fireballs?': [
         'Fire Flower',
         'Propeller Mushroom',
         'Super Star',
@@ -384,7 +402,34 @@ module.exports = {
         'Donatello',
       ],
     },
-
+    //Donkey Kong
+    {
+      'What color is Donkey Kong\'s tie in Donkey Kong 64?': [
+        'Red',
+        'Blue',
+        'Brown',
+        'Black',
+        'Green',
+      ],
+    },
+    {
+      'What is the name of Donkey Kong\'s sidekick who wears a red cap?': [
+        'Diddy Kong',
+        'Cranky Kong',
+        'Lanky Kong',
+        'Funky Kong',
+        'Candy Kong',
+      ],
+    },
+    {
+      'In the original Donkey Kong game, what did Donkey Kong throw at Mario?': [
+        'Barrels',
+        'Bannans',
+        'Goombas',
+        'Mushrooms',
+        'Shells',
+      ],
+    },
     //Uncharted
     {
       'Who was the main protagonist of the Uncharted Series?': [
@@ -416,7 +461,7 @@ module.exports = {
       ],
     },
     {
-      'Which of these franchises is not owned by popular video game developer Naughty Dog?': [
+      'Which of these franchises was not created by popular video game developer Naughty Dog?': [
         'God of War',
         'Uncharted',
         'Crash Bandicoot',
@@ -456,7 +501,7 @@ module.exports = {
     },
     //Megaman
     {
-      'In the Megaman series, what is the name of the professor who built Megaman?': [
+      'In the Megaman series, who is the professor who built Megaman?': [
         'Doctor Light',
         'Doctor Wiley',
         'Professor Layton',
@@ -465,7 +510,7 @@ module.exports = {
       ],
     },
     {
-      'In the Megaman X series, what is the name of the maverick hunter who wields the Z-saber?': [
+      'In the Megaman X series, who is the maverick hunter who wields the Z-saber?': [
         'Zero',
         'Protoman',
         'Swordman',
@@ -474,7 +519,7 @@ module.exports = {
       ],
     },
     {
-      'The popular Megaman franchise is also known is Japan as what?': [
+      'The popular Megaman franchise is also known in Japan as what?': [
         'Rockman',
         'Gutsman',
         'Protoman',
@@ -485,7 +530,7 @@ module.exports = {
 
     //Halo
     {
-      'What company is responsible for creating the Halo Franchise?': [
+      'What company is responsible for creating the Halo franchise?': [
         'Bungie Games',
         'Epic Games',
         'Respawn Entertainment',
@@ -503,7 +548,7 @@ module.exports = {
       ],
     },
     {
-      'In Halo 2, Master Chief and what other character were playable roles?': [
+      'In Halo 2, playable characters include Master Chief and what other character?': [
         'Arbiter',
         'Zealot',
         'Sangheili',
@@ -522,7 +567,7 @@ module.exports = {
     },
     //Metroid
     {
-      'In the Metroid franchise what is the name of the main protaganist?': [
+      'In the Metroid franchise, what is the name of the main protagonist?': [
         'Samus Aran',
         'Zelda',
         'Bayonetta',
@@ -531,7 +576,7 @@ module.exports = {
       ],
     },
     {
-      'In the Metroid franchise what is the name of recurring dragon boss one must fight?': [
+      'In the Metroid franchise, what is the name of recurring dragon-boss?': [
         'Ridley',
         'Bahamut',
         'Rayquaza',
@@ -540,7 +585,7 @@ module.exports = {
       ],
     },
     {
-      'In the Metroid franchise what is the name of the iconic orange and red suit Samus Aran wore in Smash Brothers?': [
+      'In the Metroid franchise, what is the name of the iconic orange and red suit Samus Aran wore in Smash Brothers?': [
         'Varia Suit',
         'Zero Suit',
         'Light Suit',
@@ -622,7 +667,7 @@ module.exports = {
 
     //Castlevania
     {
-      'In Castlevania: Symphony of the Night, who do you control?': [
+      'In Castlevania: Symphony of the Night, who is the playable protagonist?': [
         'Alucard',
         'Simon Belmont',
         'Soma Cruz',
@@ -660,7 +705,7 @@ module.exports = {
       ],
     },
     {
-      'Grand Theft Auto 4 takes place in what ficional city modeled after New York City?': [
+      'Grand Theft Auto 4 takes place in what fictional city modeled after New York City?': [
         'Liberty City',
         'Grestin',
         'Los Santos',
@@ -717,7 +762,7 @@ module.exports = {
       ],
     },
     {
-      'Which game was not created by popular mobile app developer Supercell?': [
+      'Which game was not created by popular mobile game developer Supercell?': [
         'Fruit Ninja',
         'Clash Royale',
         'Brawl Stars',
@@ -771,16 +816,7 @@ module.exports = {
       ],
     },
     {
-      'What is the highest grossing video game franchise of all time?': [
-        'Pokemon',
-        'Mario',
-        'Call of Duty',
-        'Warcraft',
-        'Final Fantasy',
-      ],
-    },
-    {
-      'Who is the protaganist of the Tomb Raider franchise?': [
+      'Who is the protagonist of the Tomb Raider franchise?': [
         'Lara Croft',
         'Nathan Drake',
         'Kratos',
@@ -802,7 +838,7 @@ module.exports = {
         'The Records of the Three Kingdoms',
         'The Fall of Troy',
         'The Battle of Kawanakajima',
-        'The Battle of Battle of Nicopolis',
+        'The Battle of Nicopolis',
         'The Franco-Prussian War',
       ],
     },
@@ -851,6 +887,46 @@ module.exports = {
         'A lion',
       ],
     },
+    {
+      'Which of these developers is created the post-apocalyptic franchise Fallout?': [
+        'Bethesda Softworks',
+        'Valve',
+        'Bandai Namco',
+        'Insomatic Games',
+        'Guerrilla Games',
+        'Infinity Ward',
+      ],
+    },
+    {
+      'Who is the main protagonist in the Ninja Gaiden franchise?': [
+        'Ryu Hayabusa',
+        'Uchiha Sasuke',
+        'Yusuke Urameshi',
+        'Yugi Moto',
+        'Himura Kenshin',
+        'Kamiya Kaoru',
+      ],
+    },
+    {
+      'What country was Tetris first released in?': [
+        'Soviet Union',
+        'United States',
+        'Japan',
+        'Sweden',
+        'Germany',
+        'France',
+      ],
+    },
+    {
+      'Who is the silent protagonist in Chrono Trigger?': [
+        'Chrono',
+        'Ayla',
+        'Magus',
+        'Robo',
+        'Frog',
+        'Marle',
+      ],
+    },
     // Best Selling
     {
       'What is the best selling video game console of all time?': [
@@ -859,6 +935,15 @@ module.exports = {
         'Playstaion 3',
         'Xbox 360',
         'Nintendo DS',
+      ],
+    },
+    {
+      'What is the highest grossing video game franchise of all time?': [
+        'Pokemon',
+        'Mario',
+        'Call of Duty',
+        'Warcraft',
+        'Final Fantasy',
       ],
     },
     {
@@ -890,4 +975,4 @@ module.exports = {
     },
   ]
 }
-//90
+//100
