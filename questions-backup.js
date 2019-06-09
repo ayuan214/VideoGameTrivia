@@ -140,13 +140,13 @@ module.exports = {
     },
     // Legend of Zelda
     {
-      'In Legend of Zelda: Ocarina of Time, which triforce piece did Link hold?': [
+      'In Legend of Zelda: Ocarina of Time, which Triforce piece did Link possess?': [
         'Courage',
-        'Power',
-        'Love',
         'Wisdom',
-        'Friendship',
+        'Power',
+        'Frienship',
         'Love',
+        'Sincerity',
       ],
     },
     {
@@ -166,6 +166,15 @@ module.exports = {
         'Light Cutter',
         'Wind Slasher',
         'Flame Sword',
+      ],
+    },
+    {
+      'In Legend of Zelda: Ocarina of Time, what is the name of Zelda\'s alter ego?': [
+        'Sheik',
+        'Terra',
+        'Lucina',
+        'Samus Aran',
+        'Yuna',
       ],
     },
     {
@@ -441,16 +450,6 @@ module.exports = {
         'Lena Oxton',
       ],
     },
-
-    {
-      'In the game Uncharted 2: Among Thieves, what lost city was the Cintamani Stone located?': [
-        'Shangri-La',
-        'El Dorado',
-        'Atlantis',
-        'Valhalla',
-      ],
-    },
-
     {
       'In the Uncharted series what was the name of Nathan Drake\'s recurring companion?': [
         'Victor Sullivan',
@@ -693,7 +692,65 @@ module.exports = {
         'Pike',
       ],
     },
-
+    //Super Smash Bros Ultimate
+    {
+      'In Super Smash Bros Ultimate, which of the following Fire Emblem characters is not playable?': [
+        'Lyn',
+        'Marth',
+        'Ike',
+        'Lucina',
+        'Robin',
+        'Chrom',
+        'Roy',
+      ],
+    },
+    {
+      'In Super Smash Bros Ultimate, which of the following Star Fox characters is playable?': [
+        'Falco',
+        'Slippy',
+        'Krystal',
+        'Andross',
+        'Pigma',
+      ],
+    },
+    {
+      'In Super Smash Bros Ultimate, what is the name of Pikachu\'s Final Smash?': [
+        'Volt Tackle',
+        'Thunder Bolt',
+        'Zap Cannon',
+        'Steel Tail',
+        'Electro Ball',
+      ],
+    },
+    {
+      'In Super Smash Bros Ultimate, what is the name of Sonic\'s Final Smash?': [
+        'Super Sonic',
+        'Hyper Mode',
+        'Light Speed',
+        'Gotta Go Fast',
+        'Quick Attack',
+      ],
+    },
+    {
+      'In Super Smash Bros Ultimate, what universe does Meta Knight hail from?': [
+        'Kirby',
+        'Mario',
+        'Metroid',
+        'Bayonetta',
+        'Splatoon',
+      ],
+    },
+    {
+      'In Super Smash Bros Ultimate, which of the following is not a playable character?': [
+        'Sora',
+        'Cloud Strife',
+        'Joker',
+        'Bayonetta',
+        'Solid Snake',
+        'Ryu',
+        'Simon Belmont',
+      ],
+    },
     //Grand Theft Auto
     {
       'Which of the following is a playable character in Grand Theft Auto 5?': [
@@ -927,6 +984,16 @@ module.exports = {
         'Marle',
       ],
     },
+    {
+      'Who is the lead protagonist of Capcom\'s Ace Attorney franchise?': [
+        'Phoenix Wright',
+        'John Kirby',
+        'Detective Pikachu',
+        'Kristoph Gavin',
+        'Winston Payne',
+        'Teru Mikami',
+      ],
+    },
     // Best Selling
     {
       'What is the best selling video game console of all time?': [
@@ -975,4 +1042,4 @@ module.exports = {
     },
   ]
 }
-//100
+//105
