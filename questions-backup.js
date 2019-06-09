@@ -140,7 +140,7 @@ module.exports = {
     },
     // Legend of Zelda
     {
-      'In Legend of Zelda: Ocarina of Time, which Triforce piece did Link possess?': [
+      'In Legend of Zelda, Ocarina of Time, which Triforce piece did Link possess?': [
         'Courage',
         'Wisdom',
         'Power',
@@ -169,7 +169,7 @@ module.exports = {
       ],
     },
     {
-      'In Legend of Zelda: Ocarina of Time, what is the name of Zelda\'s alter ego?': [
+      'In Legend of Zelda, Ocarina of Time, what is the name of Zelda\'s alter ego?': [
         'Sheik',
         'Terra',
         'Lucina',
@@ -187,14 +187,14 @@ module.exports = {
       ],
     },
     {
-      'In the game Legend of Zelda: Wind Waker, which vehicle is used to traverse the game?': [
+      'In Legend of Zelda, Wind Waker, which vehicle is used to tranverse the world?': [
         'Boat',
         'Wagon',
         'Horse',
-        'Car',
+        'Boat',
+        'Ocarina',
       ],
     },
-
     // Kingdom Hearts
     {
       'In the Kingdom Hearts game, what is the main weapon used by Sora?': [
@@ -666,7 +666,7 @@ module.exports = {
 
     //Castlevania
     {
-      'In Castlevania: Symphony of the Night, who is the playable protagonist?': [
+      'In Castlevania, Symphony of the Night, who is the playable protagonist?': [
         'Alucard',
         'Simon Belmont',
         'Soma Cruz',
@@ -1024,7 +1024,7 @@ module.exports = {
     },
     {
       'What is the best selling video game on the PlayStation 2?': [
-        'Grand Theft Auto: San Andreas',
+        'Grand Theft Auto, San Andreas',
         'Grand Turismo 3',
         'Final Fantasy 10',
         'Metal Gear Solid 2',
@@ -1037,7 +1037,7 @@ module.exports = {
         'Donkey Kong Country',
         'Street Fighter 2',
         'Super Mario Kart',
-        'Legend of Zelda: A Link to the Past',
+        'Legend of Zelda, A Link to the Past',
       ],
     },
   ]

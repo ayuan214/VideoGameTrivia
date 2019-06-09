@@ -6,7 +6,7 @@ const questions = require('./questions');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
-const ANSWER_COUNT = 3;
+const ANSWER_COUNT = 4;
 const GAME_LENGTH =5;
 
 function populateGameQuestions(translatedQuestions) {
@@ -125,11 +125,37 @@ function handleUserGuess(userGaveUp, handlerInput) {
   // Check if we can exit the game session after GAME_LENGTH questions (zero-indexed)
   if (sessionAttributes.currentQuestionIndex === GAME_LENGTH - 1) {
     speechOutput = userGaveUp ? '' : requestAttributes.t('ANSWER_IS_MESSAGE');
-    speechOutput += speechOutputAnalysis + requestAttributes.t(
-      'GAME_OVER_MESSAGE',
-      currentScore.toString(),
-      GAME_LENGTH.toString()
-    );
+    if (currentScore == GAME_LENGTH){
+      speechOutput += speechOutputAnalysis + requestAttributes.t(
+        'GAME_OVER_MESSAGE_PERFECT',
+        currentScore.toString(),
+        GAME_LENGTH.toString()
+      );
+    } else if (currentScore == GAME_LENGTH - 1){
+      speechOutput += speechOutputAnalysis + requestAttributes.t(
+        'GAME_OVER_MESSAGE_THREE',
+        currentScore.toString(),
+        GAME_LENGTH.toString()
+      );
+    } else if (currentScore == GAME_LENGTH - 2){
+      speechOutput += speechOutputAnalysis + requestAttributes.t(
+        'GAME_OVER_MESSAGE_TWO',
+        currentScore.toString(),
+        GAME_LENGTH.toString()
+      );
+    } else if (currentScore == GAME_LENGTH - 3){
+      speechOutput += speechOutputAnalysis + requestAttributes.t(
+        'GAME_OVER_MESSAGE_ONE',
+        currentScore.toString(),
+        GAME_LENGTH.toString()
+      );
+    } else {
+      speechOutput += speechOutputAnalysis + requestAttributes.t(
+        'GAME_OVER_MESSAGE_ZERO',
+        currentScore.toString(),
+        GAME_LENGTH.toString()
+      );
+    }
 
     return responseBuilder
       .speak(speechOutput)
@@ -259,9 +285,13 @@ const languageString = {
       CORRECT_ANSWER_MESSAGE: 'The correct answer is %s: %s. ',
       ANSWER_IS_MESSAGE: 'That answer is ',
       TELL_QUESTION_MESSAGE: 'Question %s. %s ',
-      GAME_OVER_MESSAGE: 'You got %s out of %s questions correct. Thank you for playing!',
+      GAME_OVER_MESSAGE_ZERO: 'You got %s out of %s questions correct. Go home and be a family man!',
+      GAME_OVER_MESSAGE_ONE: 'Get over here!!! You got %s out of %s questions correct. All your bases are belong to us!',
+      GAME_OVER_MESSAGE_TWO: 'Hey listen!!! You got %s out of %s questions correct. Thank you for playing!',
+      GAME_OVER_MESSAGE_THREE: 'Do a barrel roll!!! You got %s out of %s questions correct. Thank you for playing!',
+      GAME_OVER_MESSAGE_PERFECT: 'You got %s out of %s questions correct. All your bases are belong to us!',
       SCORE_IS_MESSAGE: 'Your score is %s. ',
-      INVALID_ANSWER: 'Please say a number 1 through %s that corresponds to your answer.'
+      INVALID_ANSWER: 'Try saying a number between 1 and %s.'
     },
   },
   'en-US': {
