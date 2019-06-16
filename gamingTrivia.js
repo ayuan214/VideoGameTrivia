@@ -100,27 +100,23 @@ function handleUserGuess(userGaveUp, handlerInput) {
   const requestAttributes = attributesManager.getRequestAttributes();
   const translatedQuestions = requestAttributes.t('QUESTIONS');
 
-  if (answerSlotValid
+  if (answerSlotValid == true
     && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {
     currentScore += 1;
     speechOutputAnalysis = requestAttributes.t('ANSWER_CORRECT_MESSAGE');
-  } else if (answerSlotValid == false) {
+  } else if (userGaveUp == true) {
+      speechOutputAnalysis += requestAttributes.t(
+        'CORRECT_ANSWER_MESSAGE',
+        correctAnswerIndex,
+        correctAnswerText
+      );
+  } else {
     console.log('INVALID ANSWER');
     speechOutput = requestAttributes.t('INVALID_ANSWER', ANSWER_COUNT);
     return responseBuilder
       .speak(speechOutput)
       .reprompt(speechOutput)
       .getResponse();
-
-  } else {
-    if (!userGaveUp) {
-      speechOutputAnalysis = requestAttributes.t('ANSWER_WRONG_MESSAGE');
-    }
-    speechOutputAnalysis += requestAttributes.t(
-      'CORRECT_ANSWER_MESSAGE',
-      correctAnswerIndex,
-      correctAnswerText
-    );
   }
   // Check if we can exit the game session after GAME_LENGTH questions (zero-indexed)
   if (sessionAttributes.currentQuestionIndex === GAME_LENGTH - 1) {
@@ -398,8 +394,9 @@ const AnswerIntent = {
   handle(handlerInput) {
     if (handlerInput.requestEnvelope.request.intent.name === 'AnswerIntent') {
       return handleUserGuess(false, handlerInput);
+    } else {
+      return handleUserGuess(true, handlerInput);
     }
-    return handleUserGuess(true, handlerInput);
   },
 };
 
