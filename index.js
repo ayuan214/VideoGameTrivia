@@ -286,7 +286,7 @@ const languageString = {
       ANSWER_IS_MESSAGE: 'That answer is ',
       TELL_QUESTION_MESSAGE: 'Question %s. %s ',
       GAME_OVER_MESSAGE_ZERO: 'You got %s out of %s questions correct. Go home and be a family man!',
-      GAME_OVER_MESSAGE_ONE: 'Get over here!!! You got %s out of %s questions correct. All your bases are belong to us!',
+      GAME_OVER_MESSAGE_ONE: 'Get over here!!! You got %s out of %s questions correct. Thanks for playing!',
       GAME_OVER_MESSAGE_TWO: 'Hey listen!!! You got %s out of %s questions correct. Thank you for playing!',
       GAME_OVER_MESSAGE_THREE: 'Do a barrel roll!!! You got %s out of %s questions correct. Thank you for playing!',
       GAME_OVER_MESSAGE_PERFECT: 'You got %s out of %s questions correct. All your bases are belong to us!',
