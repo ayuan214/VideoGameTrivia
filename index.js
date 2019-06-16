@@ -13,6 +13,7 @@ function populateGameQuestions(translatedQuestions) {
   const gameQuestions = [];
   const indexList = [];
   let index = translatedQuestions.length;
+  console.log(index);
   if (GAME_LENGTH > index) {
     throw new Error('Invalid Game Length.');
   }
