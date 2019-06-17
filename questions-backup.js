@@ -288,7 +288,7 @@ module.exports = {
     },
     // Starfox
     {
-      'Which Starfox game had the popular quote Do a Barrel Roll!': [
+      'Which Star Fox game had the popular quote Do a Barrel Roll!': [
         'Star Fox 64',
         'Star Fox Zero',
         'Star Fox Adventures',
