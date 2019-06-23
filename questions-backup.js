@@ -99,7 +99,7 @@ module.exports = {
       ],
     },
     {
-      'In Pokemon, which of the following gym leaders became an Elite Four Members?': [
+      'In Pokemon, which of the following gym leaders became an Elite Four member?': [
         'Koga',
         'Brock',
         'Misty',
@@ -108,7 +108,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Pokemon, which of the following is a gym badge you can earn in Pokemon Red or Blue?': [
+      'Which of the following is a gym badge you can earn in Pokemon Red or Blue?': [
         'Cascade Badge',
         'Mineral Badge',
         'Rain Badge',
@@ -118,7 +118,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Pokemon, which of the following type of Pokemon are super effective against Dragon-type Pokemon?': [
+      'In Pokemon, which of the following type of Pokemon are super effective against Dragon-type Pokemon?': [
         'Fairy',
         'Fire',
         'Electric',
@@ -173,7 +173,7 @@ module.exports = {
         'Sheik',
         'Terra',
         'Lucina',
-        'Samus Aran',
+        'Aeris',
         'Yuna',
       ],
     },
@@ -187,17 +187,16 @@ module.exports = {
       ],
     },
     {
-      'In Legend of Zelda, Wind Waker, which vehicle is used to tranverse the world?': [
+      'In Legend of Zelda, Wind Waker, what vehicle is used to tranverse the world?': [
         'Boat',
         'Wagon',
         'Horse',
-        'Boat',
-        'Ocarina',
+        'Carriage',
       ],
     },
     // Kingdom Hearts
     {
-      'In the Kingdom Hearts game, what is the main weapon used by Sora?': [
+      'In the Kingdom Hearts, what is the main weapon used by Sora?': [
         'Keyblade',
         'Soul Sword',
         'Tempest Trident',
@@ -205,7 +204,7 @@ module.exports = {
       ],
     },
     {
-      'In the game Kingdom Hearts, who was the companions of Sora and also the royal magician to the king?': [
+      'In Kingdom Hearts, who was the companion of Sora and also the royal magician to the king?': [
         'Donald Duck',
         'Bugs Bunny',
         'Pluto',
@@ -213,7 +212,7 @@ module.exports = {
       ],
     },
     {
-      'In the Kingdom Hearts, what were the enemies who lost their hearts called?': [
+      'In Kingdom Hearts, what were the enemies who lost their hearts called?': [
         'Heartless',
         'Wandering Souls',
         'Lost Hearts',
@@ -221,7 +220,7 @@ module.exports = {
       ],
     },
     {
-      'What is the Kingdom Hearts Series, what was the name of Sora\'s childhood friend?': [
+      'In Kingdom Hearts, what was the name of Sora\'s childhood friend?': [
         'Riku',
         'Mizuki',
         'Gon',
@@ -246,7 +245,7 @@ module.exports = {
         'Blade Beam',
         'Meteor Rain',
         'Finishing Touch',
-        'Omnislash'
+        'Omni-slash'
       ],
     },
     {
@@ -278,7 +277,7 @@ module.exports = {
     },
 
     {
-      'In the Final Fantasy Franchise, what was the name of the large yellow birds you ride?': [
+      'In the Final Fantasy franchise, what was the name of the large yellow birds you ride?': [
         'Chocobo',
         'Moogle',
         'Bahamet',
@@ -288,7 +287,7 @@ module.exports = {
     },
     // Starfox
     {
-      'Which Starfox game had the popular quote Do a Barrel Roll!': [
+      'Which Star Fox game had the popular quote Do a Barrel Roll!': [
         'Star Fox 64',
         'Star Fox Zero',
         'Star Fox Adventures',
@@ -384,7 +383,7 @@ module.exports = {
       ],
     },
     {
-      'In the 1996 game Super Mario RPG, which are the following was a playable character?': [
+      'In the 1996 game Super Mario RPG, which of the following was a playable character?': [
         'Genos',
         'Wario',
         'Rosalina',
@@ -518,7 +517,7 @@ module.exports = {
       ],
     },
     {
-      'The popular Megaman franchise is also known in Japan as what?': [
+      'Megaman is also known as what in Japan?': [
         'Rockman',
         'Gutsman',
         'Protoman',
@@ -556,7 +555,7 @@ module.exports = {
       ],
     },
     {
-      'What is the name Master Chief\'s  A.I. companion in the Halo series?': [
+      'What is the name of Master Chief\'s  A.I. companion in the Halo series?': [
         'Cortana',
         'Siri',
         'Scarlett',
@@ -575,7 +574,7 @@ module.exports = {
       ],
     },
     {
-      'In the Metroid franchise, what is the name of recurring dragon-boss?': [
+      'In the Metroid series, what is the name of the recurring dragon-boss?': [
         'Ridley',
         'Bahamut',
         'Rayquaza',
@@ -685,11 +684,11 @@ module.exports = {
     },
     {
       'In the Castlevania series, what was Simon Belmont\'s signature weapon?': [
-        'Whip',
-        'Axe',
-        'Sword',
-        'Shield',
-        'Pike',
+        'A Whip',
+        'An Axe',
+        'A Sword',
+        'A Shield',
+        'A Pike',
       ],
     },
     //Super Smash Bros Ultimate
@@ -782,7 +781,7 @@ module.exports = {
       ],
     },
     {
-      'Who is Dante\'s older brother in Devil May Cry?': [
+      'In Devil May Cry, who is the brother of Dante?': [
         'Vergil',
         'Nero',
         'Amulius',
@@ -846,7 +845,7 @@ module.exports = {
       ],
     },
     {
-      'Which of these developers was responsible for making hits such Bloodborne and Dark Souls?': [
+      'Which of these developers was responsible for making hits such as Bloodborne and Dark Souls?': [
         'FromSoftware',
         'Platinum Games',
         'Kojima Production',
@@ -909,7 +908,7 @@ module.exports = {
       ],
     },
     {
-      'Swedish Studio Mojang is best known for what hit game?': [
+      'Swedish studio Mojang is best known for what hit game?': [
         'Minecraft',
         'Just Dance',
         'Rock Band',
@@ -945,7 +944,7 @@ module.exports = {
       ],
     },
     {
-      'Which of these developers is created the post-apocalyptic franchise Fallout?': [
+      'Which of these developers created the post-apocalyptic franchise Fallout?': [
         'Bethesda Softworks',
         'Valve',
         'Bandai Namco',
@@ -999,7 +998,7 @@ module.exports = {
       'What is the best selling video game console of all time?': [
         'PlayStation 2',
         'Nintendo Wii',
-        'Playstaion 3',
+        'PlayStation 3',
         'Xbox 360',
         'Nintendo DS',
       ],
