@@ -2,7 +2,8 @@
 /* eslint-disable  no-console */
 
 const Alexa = require('ask-sdk');
-const questions = require('./questions-json.json');
+const questions = require('./questions');
+const questionsJSON = require('./questions-json');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
@@ -100,6 +101,8 @@ function handleUserGuess(userGaveUp, handlerInput) {
   const { correctAnswerText } = sessionAttributes;
   const requestAttributes = attributesManager.getRequestAttributes();
   const translatedQuestions = requestAttributes.t('QUESTIONS');
+  const translatedQuestionsJSON = JSON.parse(questionsJSON);
+  console.log('translatedQuestionsJSON = ' + translatedQuestionsJSON);
 
   if (answerSlotValid == true
     && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {

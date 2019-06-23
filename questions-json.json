@@ -1,38 +1,62 @@
-json:[
 {
-  "q":
-  {
-    "type":"text",
-    "audioFileLocation": "",
-    "QuestionText":"What franchise is Pikachu from?",
-    "ans":[{"a1":"Pokemon"},{"a2":"Mario"},{"a3":"Call of Duty"},{"a4":"Kingdom Hearts"},{"a5":"Final Fantasy"}, {"a6":"Yokai Watch"}]
-  }
-},
-{
-  "q":
-  {
-    "type":"text",
-    "audioFileLocation": "",
-    "QuestionText":"What color is Pac-Man?",
-    "ans":[{"a1":"Yellow"},{"a2":"Pink"},{"a3":"Blue"},{"a4":"Green"},{"a5":"Brown"}]
-  }
-},
-{
-  "q":
-  {
-    "type":"audio",
-    "questionText":"What game is this song from?",
-    "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Zelda-OoT-Title-Convert.mp3",
-    "ans":[{"a1":"Legend of Zelda, Ocarina of Time"},{"a2":"Pink"},{"a3":"Sonic"},{"a4":"Pokemon"},{"a5":"Mario"}]
-  }
+  "questions": [
+    {
+      "type":"text",
+      "audioFileLocation": "",
+      "QuestionText":"What franchise is Pikachu from?",
+      "ans":[
+        "Pokemon",
+        "Mario",
+        "Call of Duty",
+        "Kingdom Hearts",
+        "Final Fantasy",
+        "Yokai Watch"
+      ]
+    },
+    {
+      "type":"text",
+      "audioFileLocation": "",
+      "QuestionText":"What color is Pac-Man?",
+      "ans":[
+        "Yellow",
+        "Pink",
+        "Blue",
+        "Green",
+        "Brown"
+      ]
+    },
+    {
+      "type":"text",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Zelda-OoT-Title-Convert.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Legend of Zelda, Ocarina of Time",
+        "Sonic",
+        "Mario",
+        "Pokemon"
+      ]
+    },
+    {
+      "type":"text",
+      "audioFileLocation": "",
+      "QuestionText":"In the original Pokemon Red, which of the following is not a legendary Pokemon?",
+      "ans":[
+        "Dragonite",
+        "Mewtwo",
+        "Articuno",
+        "Zapdos"
+      ]
+    },
+    {
+      "type":"text",
+      "audioFileLocation": "",
+      "QuestionText":"In the Kingdom Hearts game, what is the main weapon used by Sora?",
+      "ans":[
+        "Keyblade",
+        "Soul Sword",
+        "Tempest Trident",
+        "Chakram of Change"
+      ]
+    }
+  ]
 }
-{
-  "q":
-  {
-    "type":"text",
-    "questionText":"In the original Pokemon Red, which of the following is not a legendary Pokemon?",
-    "audioFileLocation": "",
-    "ans":[{"a1":"Dragonite"},{"a2":"Mewtwo"},{"a3":"Articuno"},{"a4":"Zapdos"}]
-  }
-}
-]
