@@ -92,7 +92,7 @@ module.exports = {
     {
       'In the original Pokemon Red, which of the following is not a legendary Pokemon?': [
         'Dragonite',
-        'Mewtwo',
+        'Mew-two',
         'Articuno',
         'Zapdos',
         'Moltres',
@@ -187,7 +187,7 @@ module.exports = {
       ],
     },
     {
-      'In Legend of Zelda, Wind Waker, what vehicle is used to tranverse the world?': [
+      'In Legend of Zelda, Wind Waker, what vehicle is used to traverse the world?': [
         'Boat',
         'Wagon',
         'Horse',
@@ -196,7 +196,7 @@ module.exports = {
     },
     // Kingdom Hearts
     {
-      'In the Kingdom Hearts, what is the main weapon used by Sora?': [
+      'In Kingdom Hearts, what is the main weapon used by Sora?': [
         'Keyblade',
         'Soul Sword',
         'Tempest Trident',
@@ -224,7 +224,7 @@ module.exports = {
         'Riku',
         'Mizuki',
         'Gon',
-        'Raizen',
+        'Vegeta',
       ],
     },
 
@@ -763,7 +763,7 @@ module.exports = {
     {
       'Grand Theft Auto 4 takes place in what fictional city modeled after New York City?': [
         'Liberty City',
-        'Grestin',
+        'Cerulean City',
         'Los Santos',
         'Pallet Town',
         'Raccoon City',
@@ -965,7 +965,7 @@ module.exports = {
     },
     {
       'What country was Tetris first released in?': [
-        'Soviet Union',
+        'The Soviet Union',
         'United States',
         'Japan',
         'Sweden',
