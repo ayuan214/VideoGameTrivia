@@ -42,8 +42,13 @@ function populateRoundAnswers(
   translatedQuestions
 ) {
   const answers = [];
+  console.log('Current Question index of populateRoundAnswers = ' + correctAnswerIndex);
+  //const translatedQuestion = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]];
   const translatedQuestion = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]];
-  const answersCopy = translatedQuestion[Object.keys(translatedQuestion)[0]].slice();
+  console.log('translatedQuestion function: populateRoundAnswers: ' + translatedQuestion);
+  //const answersCopy = translatedQuestion[Object.keys(translatedQuestion)[0]].slice();
+  const answersCopy = translatedQuestion.ans;
+  console.log('answersCopy = ' + answersCopy);
   let index = answersCopy.length;
 
   if (index < ANSWER_COUNT) {
@@ -67,6 +72,7 @@ function populateRoundAnswers(
   const swapTemp2 = answers[0];
   answers[0] = answers[correctAnswerTargetLocation];
   answers[correctAnswerTargetLocation] = swapTemp2;
+  console.log('answers = ' + answers);
   return answers;
 }
 
@@ -99,8 +105,12 @@ function handleUserGuess(userGaveUp, handlerInput) {
   let currentScore = parseInt(sessionAttributes.score, 10);
   let currentQuestionIndex = parseInt(sessionAttributes.currentQuestionIndex, 10);
   const { correctAnswerText } = sessionAttributes;
+  console.log("correctAnswerText = " + correct);
   const requestAttributes = attributesManager.getRequestAttributes();
-  const translatedQuestions = requestAttributes.t('QUESTIONS');
+  //const translatedQuestions = requestAttributes.t('QUESTIONS');
+  const translatedQuestions = questionsJSON.questions;
+
+
 
   if (answerSlotValid == true
     && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {
@@ -168,7 +178,13 @@ function handleUserGuess(userGaveUp, handlerInput) {
   }
   currentQuestionIndex += 1;
   correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
-  const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
+  //const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
+  const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
+  console.log('populateRoundAnswers Parameters:   ' +
+   'Game Questions = ' + gameQuestions +
+    '    currentQuestionIndex = ' +currentQuestionIndex +
+    "    correctAnswerIndex = " + correctAnswerIndex +
+  '      translatedQuestions' + translatedQuestions)
   const roundAnswers = populateRoundAnswers(
     gameQuestions,
     currentQuestionIndex,
@@ -200,7 +216,9 @@ function handleUserGuess(userGaveUp, handlerInput) {
     correctAnswerIndex: correctAnswerIndex + 1,
     questions: gameQuestions,
     score: currentScore,
-    correctAnswerText: translatedQuestion[Object.keys(translatedQuestion)[0]][0]
+    //correctAnswerText: translatedQuestion[Object.keys(translatedQuestion)[0]][0]
+    correctAnswerText: translatedQuestion.ans[0]
+
   });
 
   return responseBuilder.speak(speechOutput)
@@ -215,10 +233,12 @@ function startGame(newGame, handlerInput) {
     ? requestAttributes.t('NEW_GAME_MESSAGE', requestAttributes.t('GAME_NAME'))
       + requestAttributes.t('WELCOME_MESSAGE', GAME_LENGTH.toString())
     : '';
-  const translatedQuestions = requestAttributes.t('QUESTIONS');
-  var translatedQuestionsJSON = questionsJSON.questions[0].QuestionText;
-  console.log('translatedQuestionsJSON = ' + translatedQuestionsJSON);
+  //const translatedQuestions = requestAttributes.t('QUESTIONS');
+  const translatedQuestions = questionsJSON.questions;
+  console.log('translatedQuestions = ' + translatedQuestions);
   const gameQuestions = populateGameQuestions(translatedQuestions);
+  console.log('gameQuestions = ' + gameQuestions);
+
   const correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
 
   const roundAnswers = populateRoundAnswers(
@@ -228,7 +248,8 @@ function startGame(newGame, handlerInput) {
     translatedQuestions
   );
   const currentQuestionIndex = 0;
-  const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
+  //const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
+  const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
   let repromptText = requestAttributes.t('TELL_QUESTION_MESSAGE', '1', spokenQuestion);
   for (let i = 0; i < ANSWER_COUNT; i += 1) {
     repromptText += `${i + 1}. ${roundAnswers[i]}. `;
@@ -246,7 +267,9 @@ function startGame(newGame, handlerInput) {
     correctAnswerIndex: correctAnswerIndex + 1,
     questions: gameQuestions,
     score: 0,
-    correctAnswerText: translatedQuestion[Object.keys(translatedQuestion)[0]][0]
+    //correctAnswerText: translatedQuestion[Object.keys(translatedQuestion)[0]][0]
+    correctAnswerText: translatedQuestion.ans[0]
+
   });
 
   handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
