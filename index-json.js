@@ -101,8 +101,6 @@ function handleUserGuess(userGaveUp, handlerInput) {
   const { correctAnswerText } = sessionAttributes;
   const requestAttributes = attributesManager.getRequestAttributes();
   const translatedQuestions = requestAttributes.t('QUESTIONS');
-  const translatedQuestionsJSON = JSON.parse(questionsJSON);
-  console.log('translatedQuestionsJSON = ' + translatedQuestionsJSON);
 
   if (answerSlotValid == true
     && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {
@@ -218,6 +216,8 @@ function startGame(newGame, handlerInput) {
       + requestAttributes.t('WELCOME_MESSAGE', GAME_LENGTH.toString())
     : '';
   const translatedQuestions = requestAttributes.t('QUESTIONS');
+  var translatedQuestionsJSON = questionsJSON.questions[0].QuestionText;
+  console.log('translatedQuestionsJSON = ' + translatedQuestionsJSON);
   const gameQuestions = populateGameQuestions(translatedQuestions);
   const correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
 

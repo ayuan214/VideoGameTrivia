@@ -7,12 +7,13 @@ const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
 const ANSWER_COUNT = 4;
-const GAME_LENGTH =5;
+const GAME_LENGTH = 5;
 
 function populateGameQuestions(translatedQuestions) {
   const gameQuestions = [];
   const indexList = [];
   let index = translatedQuestions.length;
+  console.log(index);
   if (GAME_LENGTH > index) {
     throw new Error('Invalid Game Length.');
   }
@@ -104,19 +105,26 @@ function handleUserGuess(userGaveUp, handlerInput) {
     && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {
     currentScore += 1;
     speechOutputAnalysis = requestAttributes.t('ANSWER_CORRECT_MESSAGE');
-  } else if (userGaveUp == true) {
-      speechOutputAnalysis += requestAttributes.t(
-        'CORRECT_ANSWER_MESSAGE',
-        correctAnswerIndex,
-        correctAnswerText
-      );
-  } else {
+  } else if (userGaveUp === true){
+    speechOutputAnalysis += requestAttributes.t(
+      'CORRECT_ANSWER_MESSAGE',
+      correctAnswerIndex,
+      correctAnswerText
+    );
+  } else if (answerSlotValid != true) {
     console.log('INVALID ANSWER');
     speechOutput = requestAttributes.t('INVALID_ANSWER', ANSWER_COUNT);
     return responseBuilder
       .speak(speechOutput)
       .reprompt(speechOutput)
       .getResponse();
+  } else {
+      speechOutputAnalysis = requestAttributes.t('ANSWER_WRONG_MESSAGE');
+      speechOutputAnalysis += requestAttributes.t(
+        'CORRECT_ANSWER_MESSAGE',
+        correctAnswerIndex,
+        correctAnswerText
+      );
   }
   // Check if we can exit the game session after GAME_LENGTH questions (zero-indexed)
   if (sessionAttributes.currentQuestionIndex === GAME_LENGTH - 1) {
@@ -394,9 +402,8 @@ const AnswerIntent = {
   handle(handlerInput) {
     if (handlerInput.requestEnvelope.request.intent.name === 'AnswerIntent') {
       return handleUserGuess(false, handlerInput);
-    } else {
-      return handleUserGuess(true, handlerInput);
     }
+    return handleUserGuess(true, handlerInput);
   },
 };
 
