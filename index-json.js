@@ -76,6 +76,20 @@ function populateRoundAnswers(
   return answers;
 }
 
+function spokenQuestionfunc(gameQuestions, currentQuestionIndex,translatedQuestions){
+  let spokenQuestionIndex = translatedQuestions[gameQuestions[currentQuestionIndex]];
+  var spokenQuestionOutput = "";
+  if(spokenQuestionIndex.type == 'audio'){
+    console.log ('spokenQuestionIndex = audio');
+    let audioFile = '<audio src = "' + spokenQuestionIndex.audioFileLocation + '"/>';
+    spokenQuestionOutput = 'Listen to this tune.' + audioFile + spokenQuestionIndex.QuestionText;
+  } else {
+    spokenQuestionOutput = spokenQuestionIndex.QuestionText;
+    console.log('spokenQuestionIndex = text');
+  }
+  return spokenQuestionOutput;
+}
+
 function isAnswerSlotValid(intent) {
   const answerSlotFilled = intent
     && intent.slots
@@ -105,12 +119,9 @@ function handleUserGuess(userGaveUp, handlerInput) {
   let currentScore = parseInt(sessionAttributes.score, 10);
   let currentQuestionIndex = parseInt(sessionAttributes.currentQuestionIndex, 10);
   const { correctAnswerText } = sessionAttributes;
-  console.log("correctAnswerText = " + correct);
   const requestAttributes = attributesManager.getRequestAttributes();
   //const translatedQuestions = requestAttributes.t('QUESTIONS');
   const translatedQuestions = questionsJSON.questions;
-
-
 
   if (answerSlotValid == true
     && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {
@@ -179,12 +190,13 @@ function handleUserGuess(userGaveUp, handlerInput) {
   currentQuestionIndex += 1;
   correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
   //const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
-  const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
+  //const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
+  const spokenQuestion = spokenQuestionfunc(gameQuestions, currentQuestionIndex, translatedQuestions);
   console.log('populateRoundAnswers Parameters:   ' +
    'Game Questions = ' + gameQuestions +
     '    currentQuestionIndex = ' +currentQuestionIndex +
     "    correctAnswerIndex = " + correctAnswerIndex +
-  '      translatedQuestions' + translatedQuestions)
+  '      translatedQuestions' + translatedQuestions);
   const roundAnswers = populateRoundAnswers(
     gameQuestions,
     currentQuestionIndex,
@@ -249,7 +261,8 @@ function startGame(newGame, handlerInput) {
   );
   const currentQuestionIndex = 0;
   //const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
-  const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
+  //const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
+  const spokenQuestion = spokenQuestionfunc(gameQuestions, currentQuestionIndex, translatedQuestions);
   let repromptText = requestAttributes.t('TELL_QUESTION_MESSAGE', '1', spokenQuestion);
   for (let i = 0; i < ANSWER_COUNT; i += 1) {
     repromptText += `${i + 1}. ${roundAnswers[i]}. `;
