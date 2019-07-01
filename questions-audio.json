@@ -1,0 +1,37 @@
+{
+  "questions": [
+    {
+      "type":"audio",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/LoZ-OoT-Title.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Legend of Zelda, Ocarina of Time",
+        "Sonic 2",
+        "Super Mario World",
+        "Pokemon Ruby"
+      ]
+    },
+    {
+      "type":"audio",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/MM2-Title.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Megaman 2",
+        "Contra",
+        "Double Dragon",
+        "Sonic 3"
+      ]
+    },
+    {
+      "type":"audio",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/KH2-Title.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Kingdom Hearts 2",
+        "Final Fantasy 7",
+        "Persona 4",
+        "Fire Emblem"
+      ]
+    }
+  ]
+}

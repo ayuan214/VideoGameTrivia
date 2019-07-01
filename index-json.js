@@ -4,17 +4,20 @@
 const Alexa = require('ask-sdk');
 const questions = require('./questions');
 const questionsJSON = require('./questions-json');
+const audioQuestionsJSON = require('./questions-audio.json');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
 const ANSWER_COUNT = 4;
 const GAME_LENGTH =5;
 
-function populateGameQuestions(translatedQuestions) {
+function populateGameQuestions(translatedQuestions, audioQuestions) {
   const gameQuestions = [];
   const indexList = [];
   let index = translatedQuestions.length;
-  console.log(index);
+  let indexaudio = audioQuestions.length;
+  console.log('translatedQuestions length = ' + index);
+  console.log('audioQuestions length = ' + indexaudio);
   if (GAME_LENGTH > index) {
     throw new Error('Invalid Game Length.');
   }
@@ -32,6 +35,11 @@ function populateGameQuestions(translatedQuestions) {
     indexList[rand] = temp;
     gameQuestions.push(indexList[index]);
   }
+
+  const randaudio = Math.floor(Math.random()* indexaudio);
+  gameQuestions[0] = randaudio;
+  console.log('randaudio = ' + randaudio);
+  console.log('gameQuestions = ' + gameQuestions);
   return gameQuestions;
 }
 
@@ -45,12 +53,13 @@ function populateRoundAnswers(
   console.log('Current Question index of populateRoundAnswers = ' + correctAnswerIndex);
   //const translatedQuestion = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]];
   const translatedQuestion = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]];
+  //const audioQuestion = audioQuestions[gameQuestionIndexes[correctAnswerIndex]];
   console.log('translatedQuestion function: populateRoundAnswers: ' + translatedQuestion);
   //const answersCopy = translatedQuestion[Object.keys(translatedQuestion)[0]].slice();
   const answersCopy = translatedQuestion.ans;
+  //const audioanswersCopy = audioQuestion.ans;
   console.log('answersCopy = ' + answersCopy);
   let index = answersCopy.length;
-
   if (index < ANSWER_COUNT) {
     throw new Error('Not enough answers for question.');
   }
@@ -69,15 +78,18 @@ function populateRoundAnswers(
   for (let i = 0; i < ANSWER_COUNT; i += 1) {
     answers[i] = answersCopy[i];
   }
+
   const swapTemp2 = answers[0];
   answers[0] = answers[correctAnswerTargetLocation];
   answers[correctAnswerTargetLocation] = swapTemp2;
   console.log('answers = ' + answers);
+
+
   return answers;
 }
 
-function spokenQuestionfunc(gameQuestions, currentQuestionIndex,translatedQuestions){
-  let spokenQuestionIndex = translatedQuestions[gameQuestions[currentQuestionIndex]];
+function spokenQuestionfunc(gameQuestions, currentQuestionIndex, questions){
+  let spokenQuestionIndex = questions[gameQuestions[currentQuestionIndex]];
   var spokenQuestionOutput = "";
   if(spokenQuestionIndex.type == 'audio'){
     console.log ('spokenQuestionIndex = audio');
@@ -247,8 +259,9 @@ function startGame(newGame, handlerInput) {
     : '';
   //const translatedQuestions = requestAttributes.t('QUESTIONS');
   const translatedQuestions = questionsJSON.questions;
+  const audioQuestions = audioQuestionsJSON.questions;
   console.log('translatedQuestions = ' + translatedQuestions);
-  const gameQuestions = populateGameQuestions(translatedQuestions);
+  const gameQuestions = populateGameQuestions(translatedQuestions, audioQuestions);
   console.log('gameQuestions = ' + gameQuestions);
 
   const correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
@@ -257,12 +270,12 @@ function startGame(newGame, handlerInput) {
     gameQuestions,
     0,
     correctAnswerIndex,
-    translatedQuestions
+    audioQuestions
   );
   const currentQuestionIndex = 0;
   //const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
   //const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
-  const spokenQuestion = spokenQuestionfunc(gameQuestions, currentQuestionIndex, translatedQuestions);
+  const spokenQuestion = spokenQuestionfunc(gameQuestions, currentQuestionIndex, audioQuestions);
   let repromptText = requestAttributes.t('TELL_QUESTION_MESSAGE', '1', spokenQuestion);
   for (let i = 0; i < ANSWER_COUNT; i += 1) {
     repromptText += `${i + 1}. ${roundAnswers[i]}. `;
@@ -271,7 +284,7 @@ function startGame(newGame, handlerInput) {
   speechOutput += repromptText;
   const sessionAttributes = {};
 
-  const translatedQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]];
+  const translatedQuestion = audioQuestions[gameQuestions[currentQuestionIndex]];
 
   Object.assign(sessionAttributes, {
     speechOutput: repromptText,
@@ -329,7 +342,7 @@ const languageString = {
       ANSWER_IS_MESSAGE: 'That answer is ',
       TELL_QUESTION_MESSAGE: 'Question %s. %s ',
       GAME_OVER_MESSAGE_ZERO: 'You got %s out of %s questions correct. Go home and be a family man!',
-      GAME_OVER_MESSAGE_ONE: 'Hey Listen!!! You got %s out of %s questions correct. Thanks for playing!',
+      GAME_OVER_MESSAGE_ONE: 'Stay Woke!!! You got %s out of %s questions correct. Thanks for playing!',
       GAME_OVER_MESSAGE_TWO: 'Boomshakalaka!!! You got %s out of %s questions correct. Thanks for playing!',
       GAME_OVER_MESSAGE_THREE: 'Do a barrel roll!!! You got %s out of %s questions correct. Thanks for playing!',
       GAME_OVER_MESSAGE_PERFECT: 'You\'re super effective!!! You got %s out of %s questions correct. Thanks for playing!',

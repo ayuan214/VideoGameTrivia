@@ -26,17 +26,6 @@
       ]
     },
     {
-      "type":"audio",
-      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Zelda-OoT-Title-Convert.mp3",
-      "QuestionText":"What game is this song from?",
-      "ans":[
-        "Legend of Zelda, Ocarina of Time",
-        "Sonic",
-        "Mario",
-        "Pokemon"
-      ]
-    },
-    {
       "type":"text",
       "audioFileLocation": "",
       "QuestionText":"In the original Pokemon Red, which of the following is not a legendary Pokemon?",
@@ -56,6 +45,32 @@
         "Soul Sword",
         "Tempest Trident",
         "Chakram of Change"
+      ]
+    },
+    {
+      "type":"text",
+      "audioFileLocation": "",
+      "QuestionText":"What company created the PlayStation?",
+      "ans":[
+        "Sony",
+        "Microsoft",
+        "Sega",
+        "Nintendo",
+        "Atari",
+        "Apple"
+      ]
+    },
+    {
+      "type":"text",
+      "audioFileLocation": "",
+      "QuestionText":"Who does Mario usually have to save from Bowser?",
+      "ans":[
+        "Princess Peach",
+        "Zelda",
+        "Ryu",
+        "Pit",
+        "Kirby",
+        "Lucene"
       ]
     }
   ]
