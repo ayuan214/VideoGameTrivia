@@ -2,6 +2,7 @@
   "questions": [
     {
       "type":"audio",
+      "questionCategory": "Legend of Zelda",
       "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/LoZ-OoT-Title.mp3",
       "QuestionText":"What game is this song from?",
       "ans":[
@@ -13,6 +14,7 @@
     },
     {
       "type":"audio",
+      "questionCategory": "Megaman",
       "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/MM2-Title.mp3",
       "QuestionText":"What game is this song from?",
       "ans":[
@@ -24,6 +26,7 @@
     },
     {
       "type":"audio",
+      "questionCategory": "Kingdom Hearts",
       "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/KH2-Title.mp3",
       "QuestionText":"What game is this song from?",
       "ans":[

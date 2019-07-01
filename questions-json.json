@@ -2,6 +2,7 @@
   "questions": [
     {
       "type":"text",
+      "questionCategory": "Simple",
       "audioFileLocation": "",
       "QuestionText":"What franchise is Pikachu from?",
       "ans":[
@@ -15,6 +16,7 @@
     },
     {
       "type":"text",
+      "questionCategory": "Simple",
       "audioFileLocation": "",
       "QuestionText":"What color is Pac-Man?",
       "ans":[
@@ -27,28 +29,62 @@
     },
     {
       "type":"text",
+      "questionCategory": "Simple",
       "audioFileLocation": "",
-      "QuestionText":"In the original Pokemon Red, which of the following is not a legendary Pokemon?",
+      "QuestionText":"The 1972 game Pong was developed by which company?",
       "ans":[
-        "Dragonite",
-        "Mewtwo",
-        "Articuno",
-        "Zapdos"
+        "Atari",
+        "Nintendo",
+        "Sega",
+        "SNK",
+        "Sony"
       ]
     },
     {
       "type":"text",
+      "questionCategory": "Simple",
       "audioFileLocation": "",
-      "QuestionText":"In the Kingdom Hearts game, what is the main weapon used by Sora?",
+      "QuestionText":"What does Mario eat to grow in size?",
       "ans":[
-        "Keyblade",
-        "Soul Sword",
-        "Tempest Trident",
-        "Chakram of Change"
+        "Mushroom",
+        "Broccoli",
+        "Apples",
+        "Bread",
+        "Cereal",
+        "Steak"
       ]
     },
     {
       "type":"text",
+      "questionCategory": "Simple",
+      "audioFileLocation": "",
+      "QuestionText":"The Madden video game franchise is based on what sport?",
+      "ans":[
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Tennis",
+        "Hockey",
+        "Golf"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Simple",
+      "audioFileLocation": "",
+      "QuestionText":"What company created the Xbox?",
+      "ans":[
+        "Microsoft",
+        "Sony",
+        "Sega",
+        "Nintendo",
+        "Atari",
+        "Apple"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Simple",
       "audioFileLocation": "",
       "QuestionText":"What company created the PlayStation?",
       "ans":[
@@ -62,6 +98,21 @@
     },
     {
       "type":"text",
+      "questionCategory": "Simple",
+      "audioFileLocation": "",
+      "QuestionText":"What company created the PlayStation?",
+      "ans":[
+        "Sony",
+        "Microsoft",
+        "Sega",
+        "Nintendo",
+        "Atari",
+        "Apple"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Simple",
       "audioFileLocation": "",
       "QuestionText":"Who does Mario usually have to save from Bowser?",
       "ans":[
@@ -71,6 +122,1301 @@
         "Pit",
         "Kirby",
         "Lucene"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Pokemon",
+      "audioFileLocation": "",
+      "QuestionText":"In Pokemon, which of the following is not a selectable starter Pokemon?",
+      "ans":[
+        "Larvitar",
+        "Charmander",
+        "Squirtle",
+        "Bulbasaur",
+        "Treecko",
+        "Torchic"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Pokemon",
+      "audioFileLocation": "",
+      "QuestionText":"In the original Pokemon Red, which of the following is not a legendary Pokemon?",
+      "ans":[
+        "Dragonite",
+        "Mewtwo",
+        "Articuno",
+        "Zapdos"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Pokemon",
+      "audioFileLocation": "",
+      "QuestionText":"In Pokemon, which of the following gym leaders became an Elite Four member?",
+      "ans":[
+        "Koga",
+        "Brock",
+        "Misty",
+        "Blaine",
+        "Wiona"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Pokemon",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is a gym badge you can earn in Pokemon Red or Blue?",
+      "ans":[
+        "Cascade Badge",
+        "Mineral Badge",
+        "Rain Badge",
+        "Fen Badge",
+        "Jet Badge",
+        "Trio Badge"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Pokemon",
+      "audioFileLocation": "",
+      "QuestionText":"In Pokemon, which of the following type of Pokemon are super effective against Dragon-type Pokemon?",
+      "ans":[
+        "Fairy",
+        "Fire",
+        "Electric",
+        "Ghost",
+        "Dark",
+        "Steel",
+        "Flying"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Pokemon",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is not a type of Pokemon?",
+      "ans":[
+        "Light",
+        "Fairy",
+        "Steel",
+        "Dark",
+        "Ghost",
+        "Normal"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Legend of Zelda",
+      "audioFileLocation": "",
+      "QuestionText":"In Legend of Zelda, Ocarina of Time, which Triforce piece did Link possess?",
+      "ans":[
+        "Courage",
+        "Wisdom",
+        "Power",
+        "Frienship",
+        "Love",
+        "Sincerity"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Legend of Zelda",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following games is not an entry into The Legend of Zelda series?",
+      "ans":[
+        "Light Seeker",
+        "Twilight Princess",
+        "Breath of the Wild",
+        "Ocarina of Time",
+        "Link to the Past",
+        "Wind Waker"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Legend of Zelda",
+      "audioFileLocation": "",
+      "QuestionText":"In the Legend of Zelda Series, what is the name of the iconic sword Link uses?",
+      "ans":[
+        "Master Sword",
+        "Golden Sword",
+        "Light Cutter",
+        "Wind Slasher",
+        "Flame Sword"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Legend of Zelda",
+      "audioFileLocation": "",
+      "QuestionText":"In Legend of Zelda, Ocarina of Time, what is the name of Zelda's alter ego?",
+      "ans":[
+        "Sheik",
+        "Terra",
+        "Lucina",
+        "Aeris",
+        "Yuna"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Legend of Zelda",
+      "audioFileLocation": "",
+      "QuestionText":"In Legend of Zelda, Wind Waker, what vehicle is used to traverse the world?",
+      "ans":[
+        "Boat",
+        "Wagon",
+        "Horse",
+        "Carriage"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Kingdom Hearts",
+      "audioFileLocation": "",
+      "QuestionText":"In the Kingdom Hearts game, what is the main weapon used by Sora?",
+      "ans":[
+        "Keyblade",
+        "Soul Sword",
+        "Tempest Trident",
+        "Chakram of Change"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Kingdom Hearts",
+      "audioFileLocation": "",
+      "QuestionText":"In Kingdom Hearts, who was the companion of Sora and also the royal magician to the king?",
+      "ans":[
+        "Donald Duck",
+        "Genie",
+        "Pluto",
+        "Goofy"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Kingdom Hearts",
+      "audioFileLocation": "",
+      "QuestionText":"In Kingdom Hearts, what were the enemies who lost their hearts called?",
+      "ans":[
+        "Heartless",
+        "Wandering Souls",
+        "Lost Hearts",
+        "Loveless"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Kingdom Hearts",
+      "audioFileLocation": "",
+      "QuestionText":"In Kingdom Hearts, what was the name of Sora's childhood friend?",
+      "ans":[
+        "Riku",
+        "Mizuki",
+        "Gon",
+        "Vegeta"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "",
+      "QuestionText":"In Final Fantasy 7, which of the following is the main protagonist?",
+      "ans":[
+        "Cloud Strife",
+        "Tidus",
+        "Vaan",
+        "Squall Leonhart",
+        "Noctis Lucis Caelum"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "",
+      "QuestionText":"n Final Fantasy 7, which of the following is not a limit break for Cloud Strife?",
+      "ans":[
+        "Dragon Drive",
+        "Cross Slash",
+        "Blade Beam",
+        "Meteor Rain",
+        "Finishing Touch",
+        "Omni-slash"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "",
+      "QuestionText":"In Final Fantasy 6, which of the following is the main antagonist?",
+      "ans":[
+        "Kefka",
+        "Garland",
+        "Sephiroth",
+        "Ultimecia"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "",
+      "QuestionText":"In Final Fantasy 13, who is the main protagonist?",
+      "ans":[
+        "Noctis Lucis Caelum",
+        "Tidus",
+        "Vaan",
+        "Squall Leonhart",
+        "Cloud Strife",
+        "Cecil Harvey"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "",
+      "QuestionText":"In Final Fantasy 7, which of the following is the main antagonist?",
+      "ans":[
+        "Sephiroth",
+        "Garland",
+        "Kefka",
+        "Ultimecia"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "",
+      "QuestionText":"In the Final Fantasy franchise, what was the name of the large yellow birds you ride?",
+      "ans":[
+        "Chocobo",
+        "Moogle",
+        "Bahamet",
+        "Cactuar",
+        "Flan"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Star Fox",
+      "audioFileLocation": "",
+      "QuestionText":"Which Star Fox game had the popular quote, Do a Barrel Roll!",
+      "ans":[
+        "Star Fox 64",
+        "Star Fox Zero",
+        "Star Fox Adventures",
+        "Star Fox 2",
+        "Star Fox Guard"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Sonic",
+      "audioFileLocation": "",
+      "QuestionText":"In Sega's popular Sonic franchise, what special ability did Tails have?",
+      "ans":[
+        "Flying",
+        "Climbing Walls",
+        "Teleportation",
+        "Invisibility",
+        "Break Dancing"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Sonic",
+      "audioFileLocation": "",
+      "QuestionText":"In Sega's popular Sonic franchise, what golden object did Sonic need to collect?",
+      "ans":[
+        "Rings",
+        "Mushrooms",
+        "Crystals",
+        "Bananas",
+        "Orbs of Light"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Sonic",
+      "audioFileLocation": "",
+      "QuestionText":"In Sega's popular Sonic franchise, what was Knuckles the Echidna in charge of safeguarding?",
+      "ans":[
+        "The Master Emerald",
+        "The Chaos Emeralds",
+        "The Shadow Sapphire",
+        "The Cursed Rubies"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Sonic",
+      "audioFileLocation": "",
+      "QuestionText":"In Sega's popular Sonic franchise, what color was Shadow, Sonic's doppelganger?",
+      "ans":[
+        "Black",
+        "Blue",
+        "Orange",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Persona",
+      "audioFileLocation": "",
+      "QuestionText":"In Persona 5, which of the following is not a code name of a Phantom Thief?",
+      "ans":[
+        "Magician",
+        "Joker",
+        "Skull",
+        "Mona",
+        "Panther",
+        "Fox",
+        "Oracle"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Persona",
+      "audioFileLocation": "",
+      "QuestionText":"In Persona 4, what was the name of the Persona the protagonist starts with?",
+      "ans":[
+        "Izanagi",
+        "Orpheus",
+        "Arsene",
+        "Loki",
+        "Jack Frost"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Persona",
+      "audioFileLocation": "",
+      "QuestionText":"In Persona 3, what was the arcana assigned to the protagonist early on in the game?",
+      "ans":[
+        "The Fool",
+        "The Magician",
+        "The Chariot",
+        "The Lovers",
+        "The Emperor"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Mario",
+      "audioFileLocation": "",
+      "QuestionText":"What is the name of the green pet dinosaur that Mario rides?",
+      "ans":[
+        "Yoshi",
+        "Hobbes",
+        "Ness",
+        "Epona",
+        "Tauros"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Mario",
+      "audioFileLocation": "",
+      "QuestionText":"What item gives Mario the ability to throw fireballs?",
+      "ans":[
+        "Fire Flower",
+        "Propeller Mushroom",
+        "Super Star",
+        "Cape Feather",
+        "Ice Flower",
+        "Wing Cap"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Mario",
+      "audioFileLocation": "",
+      "QuestionText":"In the 1996 game Super Mario RPG, which of the following was a playable character?",
+      "ans":[
+        "Genos",
+        "Wario",
+        "Rosalina",
+        "Toad",
+        "Luigi"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Mario",
+      "audioFileLocation": "",
+      "QuestionText":"What Nintendo game did Mario make his first debut?",
+      "ans":[
+        "Donkey Kong",
+        "Mario Bros",
+        "Super Mario Bros",
+        "Paper Mario",
+        "Super Mario World",
+        "Super Mario Sunshine"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Mario",
+      "audioFileLocation": "",
+      "QuestionText":"In Nintendo's Super Mario franchise what was the name of Mario's twin brother?",
+      "ans":[
+        "Luigi",
+        "Bruno",
+        "Matteo",
+        "Waluigi",
+        "Donatello"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Donkey Kong",
+      "audioFileLocation": "",
+      "QuestionText":"What color is Donkey Kong's tie in Donkey Kong 64?",
+      "ans":[
+        "Red",
+        "Blue",
+        "Brown",
+        "Black",
+        "Green"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Donkey Kong",
+      "audioFileLocation": "",
+      "QuestionText":"What is the name of Donkey Kong's sidekick who wears a red cap?",
+      "ans":[
+        "Diddy Kong",
+        "Cranky Kong",
+        "Lanky Kong",
+        "Funky Kong",
+        "Candy Kong"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Donkey Kong",
+      "audioFileLocation": "",
+      "QuestionText":"In the original Donkey Kong game, what did Donkey Kong throw at Mario?",
+      "ans":[
+        "Barrels",
+        "Bannans",
+        "Goombas",
+        "Mushrooms",
+        "Shells"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Uncharted",
+      "audioFileLocation": "",
+      "QuestionText":"Who was the main protagonist of the Uncharted Series?",
+      "ans":[
+        "Nathan Drake",
+        "Crash Bandicoot",
+        "Joel",
+        "Ellie",
+        "Jim Raynor",
+        "Lena Oxton"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Uncharted",
+      "audioFileLocation": "",
+      "QuestionText":"n the Uncharted series what was the name of Nathan Drake's recurring companion?",
+      "ans":[
+        "Victor Sullivan",
+        "Lara Croft",
+        "Samus Aran",
+        "Geralt",
+        "Dante"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Uncharted",
+      "audioFileLocation": "",
+      "QuestionText":"Which of these franchises was not created by popular video game developer Naughty Dog?",
+      "ans":[
+        "God of War",
+        "Uncharted",
+        "Crash Bandicoot",
+        "Jak and Daxter",
+        "The Last of Us"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Street Fighter",
+      "audioFileLocation": "",
+      "QuestionText":"In the Street Fighter series, what country did Chun-li represent?",
+      "ans":[
+        "China",
+        "Bolivia",
+        "England",
+        "South Korea",
+        "United States"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Street Fighter",
+      "audioFileLocation": "",
+      "QuestionText":"In the Street Fighter series, which of the following is a special move for Guile?",
+      "ans":[
+        "Sonic Boom",
+        "Yoga Flame",
+        "Spinning Bird Kick",
+        "Cannon Strike",
+        "Shoryuken"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Street Fighter",
+      "audioFileLocation": "",
+      "QuestionText":"In the Street Fighter series, which of the following is a special move for Ryu?",
+      "ans":[
+        "Hadouken",
+        "Spinning Piledriver",
+        "Tiger Shot",
+        "Psycho Crusher",
+        "Kikoken"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Megaman",
+      "audioFileLocation": "",
+      "QuestionText":"In the Megaman series, who is the professor who built Megaman?",
+      "ans":[
+        "Doctor Light",
+        "Doctor Wiley",
+        "Professor Layton",
+        "Professor Oak",
+        "Doctor Mundo"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Megaman",
+      "audioFileLocation": "",
+      "QuestionText":"In the Megaman X series, who is the maverick hunter who wields the Z-saber?",
+      "ans":[
+        "Zero",
+        "Protoman",
+        "Swordman",
+        "Bass",
+        "Gutsman"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Megaman",
+      "audioFileLocation": "",
+      "QuestionText":"Megaman is also known as what in Japan?",
+      "ans":[
+        "Rockman",
+        "Gutsman",
+        "Protoman",
+        "Flashman",
+        "Blueman"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Halo",
+      "audioFileLocation": "",
+      "QuestionText":"What company is responsible for creating the Halo franchise?",
+      "ans":[
+        "Bungie Games",
+        "Epic Games",
+        "Respawn Entertainment",
+        "Rockstar Games",
+        "Ubisoft"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Halo",
+      "audioFileLocation": "",
+      "QuestionText":"Bungie, the company responsible for creating the Halo franchise, also created what game?",
+      "ans":[
+        "Destiny",
+        "Titanfall",
+        "Gears of War",
+        "Apex Legends",
+        "Overwatch"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Halo",
+      "audioFileLocation": "",
+      "QuestionText":"In Halo 2, playable characters include Master Chief and what other character?",
+      "ans":[
+        "Arbiter",
+        "Zealot",
+        "Sangheili",
+        "Honor Guardsman",
+        "High Councilor"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Halo",
+      "audioFileLocation": "",
+      "QuestionText":"What is the name of Master Chief's  A.I. companion in the Halo series?",
+      "ans":[
+        "Cortana",
+        "Siri",
+        "Scarlett",
+        "Aria",
+        "Tracer"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Metroid",
+      "audioFileLocation": "",
+      "QuestionText":"In the Metroid franchise, what is the name of the main protagonist?",
+      "ans":[
+        "Samus Aran",
+        "Zelda",
+        "Bayonetta",
+        "Rydia",
+        "Jill Valentine"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Metroid",
+      "audioFileLocation": "",
+      "QuestionText":"In the Metroid series, what is the name of the recurring dragon-boss?",
+      "ans":[
+        "Ridley",
+        "Bahamut",
+        "Rayquaza",
+        "Shenron",
+        "Rhaegal"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Metroid",
+      "audioFileLocation": "",
+      "QuestionText":"In the Metroid franchise, what is the name of the iconic orange and red suit Samus Aran wore in Smash Brothers?",
+      "ans":[
+        "Varia Suit",
+        "Zero Suit",
+        "Light Suit",
+        "Fusion Suit",
+        "Phazon Suit"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Blizzard",
+      "audioFileLocation": "",
+      "QuestionText":"Which game was developed by Blizzard Entertainment?",
+      "ans":[
+        "Overwatch",
+        "Half Life 2",
+        "Elder Scrolls",
+        "Mortal Kombat",
+        "League of Legends",
+        "Medal of Honor"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Blizzard",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is not an Overwatch character?",
+      "ans":[
+        "Mordekaiser",
+        "Tracer",
+        "Winston",
+        "Mercy",
+        "Genji",
+        "Zarya"      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Blizzard",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is not a class in Diablo 3?",
+      "ans":[
+        "Priest",
+        "Demon Hunter",
+        "Monk",
+        "Wizard",
+        "Witch Doctor",
+        "Crusader"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Blizzard",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is a character from the Starcraft franchise?",
+      "ans":[
+        "Kerrigan",
+        "Whitemane",
+        "Hanzo",
+        "Valeera",
+        "Auriel",
+        "Li-Ming"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Blizzard",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is a character from the Warcraft franchise?",
+      "ans":[
+        "British",
+        "American",
+        "Egyptian",
+        "Spanish",
+        "Russian",
+        "Japanese"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Blizzard",
+      "audioFileLocation": "",
+      "QuestionText":"The Overwatch hero Hanzo is of what nationality?",
+      "ans":[
+        "Japanese",
+        "American",
+        "Egyptian",
+        "Spanish",
+        "Russian",
+        "British"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Blizzard",
+      "audioFileLocation": "",
+      "QuestionText":"The Overwatch hero Tracer is of what nationality?",
+      "ans":[
+        "British",
+        "American",
+        "Egyptian",
+        "Spanish",
+        "Russian",
+        "Japanese"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Castlevania",
+      "audioFileLocation": "",
+      "QuestionText":"In Castlevania, Symphony of the Night, who is the playable protagonist?",
+      "ans":[
+        "Alucard",
+        "Simon Belmont",
+        "Soma Cruz",
+        "Dracula",
+        "Sypha Belnades"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Castlevania",
+      "audioFileLocation": "",
+      "QuestionText":"Who is the vampire hunter you play as in the original Castlevania?",
+      "ans":[
+        "Simon Belmont",
+        "Soma Cruz",
+        "Richter Belmont",
+        "Julius Belmont",
+        "Sypha Belnades"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Castlevania",
+      "audioFileLocation": "",
+      "QuestionText":"In the Castlevania series, what was Simon Belmont's signature weapon?",
+      "ans":[
+        "A Whip",
+        "An Axe",
+        "A Sword",
+        "A Shield",
+        "A Pike"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Super Smash Bros Ultimate",
+      "audioFileLocation": "",
+      "QuestionText":"In Super Smash Bros Ultimate, which of the following Fire Emblem characters is not playable?",
+      "ans":[
+        "Lyn",
+        "Marth",
+        "Ike",
+        "Lucina",
+        "Robin",
+        "Chrom",
+        "Roy"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Super Smash Bros Ultimate",
+      "audioFileLocation": "",
+      "QuestionText":"In Super Smash Bros Ultimate, which of the following Star Fox characters is playable?",
+      "ans":[
+        "Falco",
+        "Slippy",
+        "Krystal",
+        "Andross",
+        "Pigma"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Super Smash Bros Ultimate",
+      "audioFileLocation": "",
+      "QuestionText":"In Super Smash Bros Ultimate, what is the name of Pikachu's Final Smash?",
+      "ans":[
+        "Volt Tackle",
+        "Thunder Bolt",
+        "Zap Cannon",
+        "Steel Tail",
+        "Electro Ball"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Super Smash Bros Ultimate",
+      "audioFileLocation": "",
+      "QuestionText":"In Super Smash Bros Ultimate, what is the name of Sonic's Final Smash?",
+      "ans":[
+        "Super Sonic",
+        "Hyper Mode",
+        "Light Speed",
+        "Gotta Go Fast",
+        "Quick Attack"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Super Smash Bros Ultimate",
+      "audioFileLocation": "",
+      "QuestionText":"In Super Smash Bros Ultimate, what series does Meta Knight hail from?",
+      "ans":[
+        "Kirby",
+        "Mario",
+        "Metroid",
+        "Bayonetta",
+        "Splatoon"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Super Smash Bros Ultimate",
+      "audioFileLocation": "",
+      "QuestionText":"In Super Smash Bros Ultimate, which of the following is not a playable character?",
+      "ans":[
+        "Sora",
+        "Cloud Strife",
+        "Joker",
+        "Bayonetta",
+        "Solid Snake",
+        "Ryu",
+        "Simon Belmont"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Rockstar Games",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is a playable character in Grand Theft Auto 5?",
+      "ans":[
+        "Michael de Santa",
+        "Niko Bellic",
+        "Gordan Freeman",
+        "Duke Nukem",
+        "Pyke"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Rockstar Games",
+      "audioFileLocation": "",
+      "QuestionText":"Grand Theft Auto 4 takes place in what fictional city modeled after New York City?",
+      "ans":[
+        "Liberty City",
+        "Cerulean City",
+        "Los Santos",
+        "Pallet Town",
+        "Raccoon City"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Devil May Cry",
+      "audioFileLocation": "",
+      "QuestionText":"Dante is the protagonist in what popular Capcom franchise?",
+      "ans":[
+        "Devil May Cry",
+        "Resident Evil",
+        "Dead Rising",
+        "Darkstalkers",
+        "Final Fight"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Devil May Cry",
+      "audioFileLocation": "",
+      "QuestionText":"In Devil May Cry, who is the brother of Dante?",
+      "ans":[
+        "Vergil",
+        "Nero",
+        "Amulius",
+        "Remus",
+        "Sirius"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Fortnite",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is not a location in Fortnite?",
+      "ans":[
+        "Nuketown",
+        "Tilted Towers",
+        "Pleasant Park",
+        "Salty Springs",
+        "Retail Row"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Fortnite",
+      "audioFileLocation": "",
+      "QuestionText":"Which of the following is an item in Fortnite?",
+      "ans":[
+        "Chug Jug",
+        "Pulse Rifle",
+        "Biotic Launcher",
+        "Widow's Kiss",
+        "Frag Launcher"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Fortnite",
+      "audioFileLocation": "",
+      "QuestionText":"Epic Games, the creators of Fortnite, is also credited with what video game franchise?",
+      "ans":[
+        "Gears of War",
+        "God of War",
+        "Resident Evil",
+        "Metal Gear Solid",
+        "Borderlands"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Mother",
+      "audioFileLocation": "",
+      "QuestionText":"Ness and Lucas are characters from what Nintendo franchise?",
+      "ans":[
+        "Mother",
+        "F-Zero",
+        "Kid Icarus",
+        "Pikmin",
+        "Splatoon"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "F-Zero",
+      "audioFileLocation": "",
+      "QuestionText":"Nintendo's F-Zero franchise is typically classified as what type of game?",
+      "ans":[
+        "Racing",
+        "RPG",
+        "Action",
+        "Real Time Strategy",
+        "First Person Shooter",
+        "Sports"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Supercell",
+      "audioFileLocation": "",
+      "QuestionText":"Which game was not created by popular mobile game developer Supercell?",
+      "ans":[
+        "Fruit Ninja",
+        "Clash Royale",
+        "Brawl Stars",
+        "Clash of Clans",
+        "Boom Beach"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Mortal Kobat",
+      "audioFileLocation": "",
+      "QuestionText":"Which character is from the Mortal Kombat franchise?",
+      "ans":[
+        "Sub Zero",
+        "Son Goku",
+        "Vega",
+        "Kazuya Mishima",
+        "Iori Yagami"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Metal Gear",
+      "audioFileLocation": "",
+      "QuestionText":"What is the name of Solid Snake's brother?",
+      "ans":[
+        "Liquid Snake",
+        "Naked Snake",
+        "Old Snake",
+        "Snake Eater",
+        "Twin Snake"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "",
+      "QuestionText":"Which of these developers was responsible for making hits such as Bloodborne and Dark Souls?",
+      "ans":[
+        "FromSoftware",
+        "Platinum Games",
+        "Kojima Production",
+        "Comcept",
+        "Level 5"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "",
+      "QuestionText":"Which game developed by Platinum Games featured a witch who uses her hair to fight her foes?",
+      "ans":[
+        "Bayonetta",
+        "Vanquish",
+        "Darkstalkers",
+        "Left 4 Dead",
+        "Biohazard"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "",
+      "QuestionText":"Who is the protagonist of the Tomb Raider franchise?",
+      "ans":[
+        "Lara Croft",
+        "Nathan Drake",
+        "Kratos",
+        "Sam Fisher",
+        "Marcus Fenix"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "",
+      "QuestionText":"What franchise is Desmond Miles from?",
+      "ans":[
+        "Assassin's Creed",
+        "Uncharted",
+        "Tony Hawk Pro Skater",
+        "Splinter Cell",
+        "Metal Gear Solid"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "",
+      "QuestionText":"The Dynasty Warriors franchise is loosely based on which historical event?",
+      "ans":[
+        "Shigeru Miyamoto",
+        "Kenji Inafune",
+        "Hideo Kojima",
+        "Tetsuya Nomura",
+        "Hideki Kamiya"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "",
+      "QuestionText":"Swedish studio Mojang is best known for what hit game?",
+      "ans":[
+        "Minecraft",
+        "Just Dance",
+        "Rock Band",
+        "Fortnite",
+        "NBA 2K"
+      ]
+    },
+    {
+        "type":"text",
+        "questionCategory": "Miscellaneous",
+        "audioFileLocation": "",
+        "QuestionText":"In Banjo-Kazooie, what animal is Banjo?",
+        "ans":[
+          "A bear",
+          "A dog",
+          "A bird",
+          "A tiger",
+          "A lion"
+        ]
+    },
+    {
+        "type":"text",
+        "questionCategory": "Miscellaneous",
+        "audioFileLocation": "",
+        "QuestionText":"Which of these developers created the post-apocalyptic franchise Fallout?",
+        "ans":[
+          "Bethesda Softworks",
+          "Valve",
+          "Bandai Namco",
+          "Insomatic Games",
+          "Guerrilla Games",
+          "Infinity Ward"
+        ]
+    },
+    {
+        "type":"text",
+        "questionCategory": "Miscellaneous",
+        "audioFileLocation": "",
+        "QuestionText":"Who is the main protagonist in the Ninja Gaiden franchise?",
+        "ans":[
+          "Ryu Hayabusa",
+          "Uchiha Sasuke",
+          "Yusuke Urameshi",
+          "Yugi Moto",
+          "Himura Kenshin",
+          "Kamiya Kaoru"
+        ]
+    },
+    {
+        "type":"text",
+        "questionCategory": "Miscellaneous",
+        "audioFileLocation": "",
+        "QuestionText":"What country was Tetris first released in?",
+        "ans":[
+          "The Soviet Union",
+          "United States",
+          "Japan",
+          "Sweden",
+          "Germany",
+          "France"
+        ]
+    },
+    {
+        "type":"text",
+        "questionCategory": "Miscellaneous",
+        "audioFileLocation": "",
+        "QuestionText":"Who is the silent protagonist in Chrono Trigger?",
+        "ans":[
+          "Chrono",
+          "Ayla",
+          "Magus",
+          "Robo",
+          "Frog",
+          "Marle"
+        ]
+    },
+    {
+        "type":"text",
+        "questionCategory": "Miscellaneous",
+        "audioFileLocation": "",
+        "QuestionText":"Who is the lead protagonist of Capcom's Ace Attorney franchise?",
+        "ans":[
+          "Phoenix Wright",
+          "John Kirby",
+          "Detective Pikachu",
+          "Kristoph Gavin",
+          "Winston Payne",
+          "Teru Mikami"
+        ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Best Selling",
+      "audioFileLocation": "",
+      "QuestionText":"What is the best selling video game console of all time?",
+      "ans":[
+        "PlayStation 2",
+        "Nintendo Wii",
+        "PlayStation 3",
+        "Xbox 360",
+        "Nintendo DS"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Best Selling",
+      "audioFileLocation": "",
+      "QuestionText":"What is the highest grossing video game franchise of all time?",
+      "ans":[
+        "Pokemon",
+        "Mario",
+        "Call of Duty",
+        "Warcraft",
+        "Final Fantasy"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Best Selling",
+      "audioFileLocation": "",
+      "QuestionText":"What is the best selling video game of all time?",
+      "ans":[
+        "Minecraft",
+        "Tetris",
+        "Grand Theft Auto 5",
+        "Pokemon Red",
+        "Mario Kart"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Best Selling",
+      "audioFileLocation": "",
+      "QuestionText":"What is the best selling video game on the PlayStation 2?",
+      "ans":[
+        "Grand Theft Auto, San Andreas",
+        "Grand Turismo 3",
+        "Final Fantasy 10",
+        "Metal Gear Solid 2",
+        "Tekken 5"
+      ]
+    },
+    {
+      "type":"text",
+      "questionCategory": "Best Selling",
+      "audioFileLocation": "",
+      "QuestionText":"What is the best selling video game on the Super Nintendo?",
+      "ans":[
+        "Super Mario World",
+        "Donkey Kong Country",
+        "Street Fighter 2",
+        "Super Mario Kart",
+        "Legend of Zelda, A Link to the Past"
       ]
     }
   ]
