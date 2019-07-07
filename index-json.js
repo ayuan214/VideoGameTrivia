@@ -3,17 +3,21 @@
 
 const Alexa = require('ask-sdk');
 const questions = require('./questions');
+const questionsJSON = require('./questions-json');
+const audioQuestionsJSON = require('./questions-audio.json');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
 const ANSWER_COUNT = 4;
-const GAME_LENGTH = 5;
+const GAME_LENGTH =5;
 
-function populateGameQuestions(translatedQuestions) {
+function populateGameQuestions(translatedQuestions, audioQuestions) {
   const gameQuestions = [];
   const indexList = [];
   let index = translatedQuestions.length;
-  console.log(index);
+  let indexaudio = audioQuestions.length;
+  console.log('translatedQuestions length = ' + index);
+  console.log('audioQuestions length = ' + indexaudio);
   if (GAME_LENGTH > index) {
     throw new Error('Invalid Game Length.');
   }
@@ -31,6 +35,11 @@ function populateGameQuestions(translatedQuestions) {
     indexList[rand] = temp;
     gameQuestions.push(indexList[index]);
   }
+
+  const randaudio = Math.floor(Math.random()* indexaudio);
+  gameQuestions[0] = randaudio;
+  console.log('randaudio = ' + randaudio);
+  console.log('gameQuestions = ' + gameQuestions);
   return gameQuestions;
 }
 
@@ -41,10 +50,16 @@ function populateRoundAnswers(
   translatedQuestions
 ) {
   const answers = [];
+  console.log('Current Question index of populateRoundAnswers = ' + correctAnswerIndex);
+  //const translatedQuestion = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]];
   const translatedQuestion = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]];
-  const answersCopy = translatedQuestion[Object.keys(translatedQuestion)[0]].slice();
+  //const audioQuestion = audioQuestions[gameQuestionIndexes[correctAnswerIndex]];
+  console.log('translatedQuestion function: populateRoundAnswers: ' + translatedQuestion);
+  //const answersCopy = translatedQuestion[Object.keys(translatedQuestion)[0]].slice();
+  const answersCopy = translatedQuestion.ans;
+  //const audioanswersCopy = audioQuestion.ans;
+  console.log('answersCopy = ' + answersCopy);
   let index = answersCopy.length;
-
   if (index < ANSWER_COUNT) {
     throw new Error('Not enough answers for question.');
   }
@@ -63,10 +78,28 @@ function populateRoundAnswers(
   for (let i = 0; i < ANSWER_COUNT; i += 1) {
     answers[i] = answersCopy[i];
   }
+
   const swapTemp2 = answers[0];
   answers[0] = answers[correctAnswerTargetLocation];
   answers[correctAnswerTargetLocation] = swapTemp2;
+  console.log('answers = ' + answers);
+
+
   return answers;
+}
+
+function spokenQuestionfunc(gameQuestions, currentQuestionIndex, questions){
+  let spokenQuestionIndex = questions[gameQuestions[currentQuestionIndex]];
+  var spokenQuestionOutput = "";
+  if(spokenQuestionIndex.type == 'audio'){
+    console.log ('spokenQuestionIndex = audio');
+    let audioFile = '<audio src = "' + spokenQuestionIndex.audioFileLocation + '"/>';
+    spokenQuestionOutput = 'Listen to this tune.' + audioFile + spokenQuestionIndex.QuestionText;
+  } else {
+    spokenQuestionOutput = spokenQuestionIndex.QuestionText;
+    console.log('spokenQuestionIndex = text');
+  }
+  return spokenQuestionOutput;
 }
 
 function isAnswerSlotValid(intent) {
@@ -99,7 +132,8 @@ function handleUserGuess(userGaveUp, handlerInput) {
   let currentQuestionIndex = parseInt(sessionAttributes.currentQuestionIndex, 10);
   const { correctAnswerText } = sessionAttributes;
   const requestAttributes = attributesManager.getRequestAttributes();
-  const translatedQuestions = requestAttributes.t('QUESTIONS');
+  //const translatedQuestions = requestAttributes.t('QUESTIONS');
+  const translatedQuestions = questionsJSON.questions;
 
   if (answerSlotValid == true
     && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {
@@ -167,7 +201,14 @@ function handleUserGuess(userGaveUp, handlerInput) {
   }
   currentQuestionIndex += 1;
   correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
-  const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
+  //const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
+  //const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
+  const spokenQuestion = spokenQuestionfunc(gameQuestions, currentQuestionIndex, translatedQuestions);
+  console.log('populateRoundAnswers Parameters:   ' +
+   'Game Questions = ' + gameQuestions +
+    '    currentQuestionIndex = ' +currentQuestionIndex +
+    "    correctAnswerIndex = " + correctAnswerIndex +
+  '      translatedQuestions' + translatedQuestions);
   const roundAnswers = populateRoundAnswers(
     gameQuestions,
     currentQuestionIndex,
@@ -199,7 +240,9 @@ function handleUserGuess(userGaveUp, handlerInput) {
     correctAnswerIndex: correctAnswerIndex + 1,
     questions: gameQuestions,
     score: currentScore,
-    correctAnswerText: translatedQuestion[Object.keys(translatedQuestion)[0]][0]
+    //correctAnswerText: translatedQuestion[Object.keys(translatedQuestion)[0]][0]
+    correctAnswerText: translatedQuestion.ans[0]
+
   });
 
   return responseBuilder.speak(speechOutput)
@@ -214,18 +257,25 @@ function startGame(newGame, handlerInput) {
     ? requestAttributes.t('NEW_GAME_MESSAGE', requestAttributes.t('GAME_NAME'))
       + requestAttributes.t('WELCOME_MESSAGE', GAME_LENGTH.toString())
     : '';
-  const translatedQuestions = requestAttributes.t('QUESTIONS');
-  const gameQuestions = populateGameQuestions(translatedQuestions);
+  //const translatedQuestions = requestAttributes.t('QUESTIONS');
+  const translatedQuestions = questionsJSON.questions;
+  const audioQuestions = audioQuestionsJSON.questions;
+  console.log('translatedQuestions = ' + translatedQuestions);
+  const gameQuestions = populateGameQuestions(translatedQuestions, audioQuestions);
+  console.log('gameQuestions = ' + gameQuestions);
+
   const correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
 
   const roundAnswers = populateRoundAnswers(
     gameQuestions,
     0,
     correctAnswerIndex,
-    translatedQuestions
+    audioQuestions
   );
   const currentQuestionIndex = 0;
-  const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
+  //const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
+  //const spokenQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]].QuestionText;
+  const spokenQuestion = spokenQuestionfunc(gameQuestions, currentQuestionIndex, audioQuestions);
   let repromptText = requestAttributes.t('TELL_QUESTION_MESSAGE', '1', spokenQuestion);
   for (let i = 0; i < ANSWER_COUNT; i += 1) {
     repromptText += `${i + 1}. ${roundAnswers[i]}. `;
@@ -234,7 +284,7 @@ function startGame(newGame, handlerInput) {
   speechOutput += repromptText;
   const sessionAttributes = {};
 
-  const translatedQuestion = translatedQuestions[gameQuestions[currentQuestionIndex]];
+  const translatedQuestion = audioQuestions[gameQuestions[currentQuestionIndex]];
 
   Object.assign(sessionAttributes, {
     speechOutput: repromptText,
@@ -243,7 +293,9 @@ function startGame(newGame, handlerInput) {
     correctAnswerIndex: correctAnswerIndex + 1,
     questions: gameQuestions,
     score: 0,
-    correctAnswerText: translatedQuestion[Object.keys(translatedQuestion)[0]][0]
+    //correctAnswerText: translatedQuestion[Object.keys(translatedQuestion)[0]][0]
+    correctAnswerText: translatedQuestion.ans[0]
+
   });
 
   handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
@@ -277,7 +329,7 @@ const languageString = {
       ASK_MESSAGE_START: 'Would you like to start playing?',
       HELP_REPROMPT: 'To give an answer to a question, respond with the number of the answer. ',
       STOP_MESSAGE: 'Would you like to keep playing?',
-      CANCEL_MESSAGE: 'Ok, let\'s play again soon.',
+      CANCEL_MESSAGE: 'Ok, let\'s play again soon. Smell you later!',
       NO_MESSAGE: 'Ok, we\'ll play another time. Smell you later!',
       TRIVIA_UNHANDLED: 'Try saying a number between 1 and %s',
       HELP_UNHANDLED: 'Say yes to continue, or no to end the game.',
@@ -290,7 +342,7 @@ const languageString = {
       ANSWER_IS_MESSAGE: 'That answer is ',
       TELL_QUESTION_MESSAGE: 'Question %s. %s ',
       GAME_OVER_MESSAGE_ZERO: 'You got %s out of %s questions correct. Go home and be a family man!',
-      GAME_OVER_MESSAGE_ONE: 'Hey Listen!!! You got %s out of %s questions correct. Thanks for playing!',
+      GAME_OVER_MESSAGE_ONE: 'Stay Woke!!! You got %s out of %s questions correct. Thanks for playing!',
       GAME_OVER_MESSAGE_TWO: 'Boomshakalaka!!! You got %s out of %s questions correct. Thanks for playing!',
       GAME_OVER_MESSAGE_THREE: 'Do a barrel roll!!! You got %s out of %s questions correct. Thanks for playing!',
       GAME_OVER_MESSAGE_PERFECT: 'You\'re super effective!!! You got %s out of %s questions correct. Thanks for playing!',

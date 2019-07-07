@@ -1,0 +1,372 @@
+{
+  "questions": [
+    {
+      "type":"audio",
+      "questionCategory": "Donkey Kong",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/DKC-Title.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Donkey Kong Country",
+        "Sonic 2",
+        "Punch Out",
+        "Battle Toads",
+        "Parappa the Rapper"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/FF6-Battle.mp3",
+      "QuestionText":"What series is this song from?",
+      "ans":[
+        "Final Fantasy",
+        "Phantasy Star",
+        "Earthbound",
+        "Dragon Quest",
+        "Lost Odyssey"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/FF7-ATheme.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Final Fantasy 7",
+        "Monster Hunter 4",
+        "Final Fantasy Tactics",
+        "Persona 3",
+        "Puzzle Fighter"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Final Fantasy",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/FF7-STheme.mp3",
+      "QuestionText":"This song is which antagonist's theme?",
+      "ans":[
+        "Sephiroth",
+        "Dracula",
+        "Kefka",
+        "Hisoka",
+        "Kaido",
+        "Garland"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Fortnite",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Fortnite-DDnce.mp3",
+      "QuestionText":"This tune is a dance from what game?",
+      "ans":[
+        "Fortnite",
+        "Just Dance",
+        "Elite Beat Agents",
+        "Beat Sabers",
+        "Lost in Harmony",
+        "Call of Duty"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Fortnite",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Fortnite-ESDnce.mp3",
+      "QuestionText":"In Fortnite, this tune goes with which dance?",
+      "ans":[
+        "Electro Shuffle",
+        "Best Mates",
+        "Fresh Dance",
+        "The Floss",
+        "Flapper Dance",
+        "The Robot"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/GS-ITheme.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Golden Sun",
+        "Super Mario RPG",
+        "The World Ends With You",
+        "Dragon Quest",
+        "Final Fantasy",
+        "League of Legends"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Halo",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Ha-Title.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Halo",
+        "Battlefield",
+        "Destiny",
+        "Mass Effect",
+        "Gears of War",
+        "Call of Duty",
+        "Battlegrounds"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Kingdom Hearts",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/KH2-Title.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Kingdom Hearts 2",
+        "Final Fantasy 7",
+        "The World Ends With You",
+        "Fire Emblem",
+        "Chrono Trigger"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Kby-Theme.mp3",
+      "QuestionText":"What series is this song from?",
+      "ans":[
+        "Kirby",
+        "Mario",
+        "F-Zero",
+        "Spyro",
+        "Ratchet and Clank"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Legend of Zelda",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/LoZ-OoT-Title.mp3",
+      "QuestionText":"Which Legend of Zelda game is this song from?",
+      "ans":[
+        "Ocarina of Time",
+        "Wind Waker",
+        "Breath of the Wild",
+        "Link to the Past",
+        "Twilight Princess",
+        "Minish Cap",
+        "Oracle of Seasons",
+        "Skyward Sword"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/LoZ-OvrW.mp3",
+      "QuestionText":"What series is this song from?",
+      "ans":[
+        "Legend of Zelda",
+        "Dark Souls",
+        "Maple Story",
+        "Fire Emblem",
+        "Golden Sun",
+        "Castlevania"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Megaman",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/MM2-Title.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Megaman 2",
+        "Contra",
+        "Double Dragon",
+        "Sonic 3",
+        "Metal Slug",
+        "Shovel Knight"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Megaman",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/MMX-Intro.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Megaman X",
+        "Final Fight",
+        "Trine",
+        "Strider",
+        "Metal Slug",
+        "Shovel Knight"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Mario",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Mar-Ath.mp3",
+      "QuestionText":"What series is this song from?",
+      "ans":[
+        "Mario",
+        "Metroid",
+        "Star Fox",
+        "Splatoon",
+        "Pac-Man",
+        "Sonic the Hedgehog"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Mario",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Mar-Title.mp3",
+      "QuestionText":"What series is this song from?",
+      "ans":[
+        "Mario",
+        "Donkey Kong",
+        "Pikmin",
+        "Kirby",
+        "Minecraft",
+        "Crash Bandicoot",
+        "Banjo Kazooie"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Mario",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/Mar-BBL.mp3",
+      "QuestionText":"Which level in Mario 64 is this song from?",
+      "ans":[
+        "Bob-omb Battlefield",
+        "Tick Tock Clock",
+        "Cool, Cool Mountain",
+        "Snowman's Land",
+        "Tiny Huge Island",
+        "Dire, Dire Docks",
+        "Lethal Lava Land"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/OW-GP.mp3",
+      "QuestionText":"Which game is this song from?",
+      "ans":[
+        "Overwatch",
+        "Team Fortress 2",
+        "Fortnite",
+        "Splatoon",
+        "Portal",
+        "Borderlands",
+        "Bioshock"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Pokemon",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/PKM-BTL.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Pokemon",
+        "Monster Hunter",
+        "Duel Monsters",
+        "Dragon Drive",
+        "Digimon",
+        "Dragon Quest"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Pokemon",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/PKM-Title.mp3",
+      "QuestionText":"This tune plays at the beginning of what game?",
+      "ans":[
+        "Pokemon Red",
+        "Yo-Kai Watch",
+        "Heartstone",
+        "Ni no Kuni",
+        "Guilty Gear",
+        "Puzzle Fighters"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Persona",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/PS4-BTLE.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Persona 4",
+        "Final Fantasy 11",
+        "Metal Gear Solid",
+        "Phantasy Star Online",
+        "Puzzle and Dragons",
+        "Valkyria Chronicles"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Street Fighter",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/SF-GTheme.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Street Fighter 2",
+        "Guilty Gear",
+        "Sould Calibur",
+        "Dragon Ball FighterZ",
+        "Final Fight",
+        "Darkstalkers",
+        "Marvel versus Capcom"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Sonic",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/SNC-GHZ.mp3",
+      "QuestionText":"Which level in Sonic is this song from?",
+      "ans":[
+        "Green Hill Zone",
+        "City Escape",
+        "Radical Highway",
+        "Crisis City",
+        "Casino Night",
+        "Sky Sanctuary",
+        "Speed Highway",
+        "Chemical Plant"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/TET-Main.mp3",
+      "QuestionText":"What game is this song from?",
+      "ans":[
+        "Tetris",
+        "Galaga",
+        "Space Invaders",
+        "Donkey Kong",
+        "Excite Bike",
+        "Pong"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Uncharted",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/UCT-Title.mp3",
+      "QuestionText":"What series is this song from?",
+      "ans":[
+        "Uncharted",
+        "Tomb Raider",
+        "Indiana Jones",
+        "The Last of Us",
+        "Horizon Zero Dawn",
+        "Metal Gear"
+      ]
+    },
+    {
+      "type":"audio",
+      "questionCategory": "Miscellaneous",
+      "audioFileLocation": "https://video-game-trivia-audio.s3-us-west-2.amazonaws.com/WS-Title.mp3",
+      "QuestionText":"Which game is this song from?",
+      "ans":[
+        "Wii Sports",
+        "Splatoon",
+        "Earthbound",
+        "Minecraft",
+        "Clash Royale",
+        "The Sims"
+      ]
+    }
+  ]
+}
