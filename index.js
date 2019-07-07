@@ -272,7 +272,7 @@ const languageString = {
     translation: {
       QUESTIONS: questions.QUESTIONS_EN_US,
       GAME_NAME: 'Video Game Trivia',
-      HELP_MESSAGE: 'Stay a while, and listen! I will ask you %s multiple choice questions. Respond with the number of the answer. For example, say one, two, or three. To start a new game at any time, say, start game. ',
+      HELP_MESSAGE: 'Stay a while, and listen! I will ask you %s multiple choice questions. Respond with the number of the answer. For example, say one, two, three, or four. To start a new game at any time, say, start over. ',
       REPEAT_QUESTION_MESSAGE: 'To repeat the last question, say, repeat. ',
       ASK_MESSAGE_START: 'Would you like to start playing?',
       HELP_REPROMPT: 'To give an answer to a question, respond with the number of the answer. ',
