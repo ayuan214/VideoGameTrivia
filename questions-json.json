@@ -960,7 +960,7 @@
       "audioFileLocation": "",
       "QuestionText":"In Super Smash Bros Ultimate, which of the following Fire Emblem characters is not playable?",
       "ans":[
-        "Lyn",
+        "Edelgard",
         "Marth",
         "Ike",
         "Lucina",
@@ -1027,11 +1027,11 @@
       "audioFileLocation": "",
       "QuestionText":"In Super Smash Bros Ultimate, which of the following is not a playable character?",
       "ans":[
-        "Sora",
+        "Master Chief",
         "Cloud Strife",
         "Joker",
         "Bayonetta",
-        "Solid Snake",
+        "Sora",
         "Ryu",
         "Simon Belmont"
       ]
